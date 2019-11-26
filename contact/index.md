@@ -21,7 +21,7 @@ layout: "contact"
 * **头像：**你的头像地址
 
 例如我的博客友链，大家可以加到自己博客里哦：
-* **名称：**godweiyang
-* **地址：**https://godweiyang.com
+* **名称：**theliuqi
+* **地址：**https://theliuqi.com
 * **简介：**ECNU NLPer
-* **头像：**https://godweiyang.com/medias/avatars/avatar.jpg
+* **头像：**https://theliuqi.com/medias/avatars/avatar.jpg
