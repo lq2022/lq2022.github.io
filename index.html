@@ -67,34 +67,6 @@
         </a>
     </li>
     
-    <li class="hide-on-med-and-down">
-        <a href="/tags" class="waves-effect waves-light">
-            
-            <span>标签</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/categories" class="waves-effect waves-light">
-            
-            <span>分类</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/archives" class="waves-effect waves-light">
-            
-            <span>归档</span>
-        </a>
-    </li>
-    
-    <li class="hide-on-med-and-down">
-        <a href="/contact" class="waves-effect waves-light">
-            
-            <span>留言板</span>
-        </a>
-    </li>
-    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -124,42 +96,6 @@
                 <i class="fa fa-fw fa-link"></i>
                 
                 首页
-            </a>
-        </li>
-        
-        <li>
-            <a href="/tags" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-link"></i>
-                
-                标签
-            </a>
-        </li>
-        
-        <li>
-            <a href="/categories" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-link"></i>
-                
-                分类
-            </a>
-        </li>
-        
-        <li>
-            <a href="/archives" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-link"></i>
-                
-                归档
-            </a>
-        </li>
-        
-        <li>
-            <a href="/contact" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-link"></i>
-                
-                留言板
             </a>
         </li>
         
@@ -308,9 +244,12 @@
     </div>
 </div>
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+// 每天切换 banner 图.  Switch banner image every day. new Date().getDay() 
+// Math.floor(Math.random()*7) 可均衡获取 0 到 6 的随机整数
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + Math.floor(Math.random()*7) + '.jpg)');
 </script>
+
+
 
             <div class="cover-btns">
                 <a href="#indexCard" class="waves-effect waves-light btn">
@@ -436,20 +375,20 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/11/26/test/" target="_blank">
+                    <a href="/2019/11/26/linux-knowledge/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="新的开始">
+                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="后端程序员必备的Linux基础知识">
                             
-                            <span class="card-title">新的开始</span>
+                            <span class="card-title">后端程序员必备的Linux基础知识</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            折腾了一下午终于把这个酷炫的Github博客搭建起来了,这里要感谢[hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery)和[https://godweiyang.com/2018/04/13/hexo-blog/](https://godweiyang.com/2018/04/13/hexo-blog/),虽然我另外还有用Laravel+Bootstrap构建的[博客](https://blog.theliuqi.top),出于对技术的热爱,这个算是备用吧,说不定哪天就被墙了呢?
+                            后端程序员必备的Linux基础知识
                             
                         </div>
                         <div class="publish-info">
@@ -460,8 +399,8 @@ $(function () {
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
+                                <a href="/categories/技术/" class="post-category" target="_blank">
+                                    技术
                                 </a>
                                 
                                 
@@ -472,8 +411,8 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/随笔/" target="_blank">
-                            <span class="chip bg-color">随笔</span>
+                        <a href="/tags/Linux/" target="_blank">
+                            <span class="chip bg-color">Linux</span>
                         </a>
                         
                     </div>
@@ -494,7 +433,7 @@ $(function () {
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">78</span>
+            <span class="white-color">4.9k</span>
             
 
             <br>
