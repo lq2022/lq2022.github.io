@@ -67,6 +67,20 @@
         </a>
     </li>
     
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -81,7 +95,7 @@
         <div class="logo-name">刘琪的博客</div>
         <div class="logo-desc">
             
-            深圳大学 | 计算机科学与技术 | 计算机信息管理
+            华南师范大学 | 计算机科学与技术 | 计算机信息管理
             
         </div>
     </div>
@@ -96,6 +110,24 @@
                 <i class="fa fa-fw fa-link"></i>
                 
                 首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-link"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-link"></i>
+                
+                关于
             </a>
         </li>
         
@@ -180,26 +212,20 @@
         <div class="brand">
             <div class="title center-align">
                 <!-- 
-                    theliuqi
+                    subtitle
                  -->
                 
                     留言板
                 
             </div>
 
-            <div class="description center-align">
-                
-                    <!-- 深圳大学 | 计算机科学与技术 | 计算机信息管理 -->
-                    <span id="jinrishici-sentence">正在加载今日诗词...</span>
-                
-            </div>
         </div>
     </div>
 </div>
 <script>
 // 每天切换 banner 图.  Switch banner image every day. new Date().getDay() 
 // Math.floor(Math.random()*7) 可均衡获取 0 到 6 的随机整数
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + Math.floor(Math.random()*7) + '.jpg)');
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + Math.floor(Math.random()*3) + '.jpg)');
 </script>
 
 
