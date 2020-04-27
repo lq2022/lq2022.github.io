@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-04-21T01:50:45.949Z</updated>
+  <updated>2020-04-27T14:35:33.337Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git入门</title>
+    <link href="https://theliuqi.top/2020/04/27/git/"/>
+    <id>https://theliuqi.top/2020/04/27/git/</id>
+    <published>2020-04-27T14:34:09.000Z</published>
+    <updated>2020-04-27T14:35:33.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Git" scheme="https://theliuqi.top/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>盛最多水的容器</title>
