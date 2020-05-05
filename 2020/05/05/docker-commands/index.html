@@ -4,11 +4,12 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="盛最多水的容器, 刘琪 theliuqi Liuqi Python PHP">
+    <meta name="keywords" content="开发者必备Docker命令, 刘琪 theliuqi Liuqi Python PHP">
     <meta name="baidu-site-verification" content="a0V0OBrZLv">
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="题目求最大水容器，给定一个包含正整数的数组，a1，a2，…，an。每个元素都可以呈现成一个点(i，ai)。过每个点，做垂直于x轴的垂线，得到对应交点(0，ai)。(0，ai)和(i，ai)构成一条之前。每条直线两两组合，构成一个储水容器，找">
+    <meta name="description" content="Docker 简介Docker 是一个开源的应用容器引擎, 让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows机器上。使用Docker可以更方便低打包、测试以及部署应用程序。
+Dock">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>盛最多水的容器 | 刘琪的博客</title>
+    <title>开发者必备Docker命令 | 刘琪的博客</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -286,13 +287,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        盛最多水的容器
+                        开发者必备Docker命令
                     </div>
                 </div>
             </div>
@@ -403,8 +404,8 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Leetcode/" target="_blank">
-                            <span class="chip bg-color">Leetcode</span>
+                        <a href="/tags/Docker/" target="_blank">
+                            <span class="chip bg-color">Docker</span>
                         </a>
                         
                     </div>
@@ -427,7 +428,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-21
+                    2020-05-05
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -441,7 +442,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    433
+                    652
                 </div>
                 
 
@@ -464,83 +465,52 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a><a href="https://leetcode-cn.com/problems/container-with-most-water/" target="_blank" rel="noopener">题目</a></h1><p>求最大水容器，给定一个包含正整数的数组，a1，a2，…，an。每个元素都可以呈现成一个点(i，ai)。过每个点，做垂直于x轴的垂线，得到对应交点(0，ai)。(0，ai)和(i，ai)构成一条之前。每条直线两两组合，构成一个储水容器，找到存储量最大的那个容器。</p>
-<p><strong>举例：</strong></p>
-<pre class="line-numbers language-stylus"><code class="language-stylus">Input：<span class="token punctuation">[</span>1,3,5<span class="token punctuation">]</span>
-<span class="token punctuation">(</span>0,1<span class="token punctuation">)</span> -> <span class="token punctuation">(</span>1,1<span class="token punctuation">)</span>
-<span class="token punctuation">(</span>0,3<span class="token punctuation">)</span> -> <span class="token punctuation">(</span>2,3<span class="token punctuation">)</span>
-<span class="token punctuation">(</span>0,5<span class="token punctuation">)</span> -> <span class="token punctuation">(</span>3,5<span class="token punctuation">)</span>
-Output：3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>输入是[1,3,5]，那么一共有三条垂直与x轴的直线，直线两两组合，面积最大为3。</p>
-<h1 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h1><p>最大盛水量取决于两边中较短的那条边，而且如果将较短的边换为更短边的话，盛水量只会变少。所以我们可以用两个头尾指针，计算出当前最大的盛水量后，将较短的边向中间移，因为我们想看看能不能把较短的边换长一点。这样一直计算到左边大于右边为止就行了</p>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a><strong>Python</strong></h2><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">(</span>object<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">def</span> <span class="token function">maxArea</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">:</span>
-        <span class="token triple-quoted-string string">"""
-        :type height: List[int]
-        :rtype: int
-        """</span>
-        area_tmp <span class="token operator">=</span> <span class="token number">0</span>
-        area_max <span class="token operator">=</span> <span class="token number">0</span>
-        left <span class="token operator">=</span> <span class="token number">0</span>
-        right <span class="token operator">=</span> len<span class="token punctuation">(</span>height<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
-        <span class="token keyword">while</span><span class="token punctuation">(</span>left <span class="token operator">&lt;</span> right<span class="token punctuation">)</span><span class="token punctuation">:</span>
-            min_height <span class="token operator">=</span> min<span class="token punctuation">(</span>height<span class="token punctuation">[</span>left<span class="token punctuation">]</span><span class="token punctuation">,</span> height<span class="token punctuation">[</span>right<span class="token punctuation">]</span><span class="token punctuation">)</span>
-            area_tmp <span class="token operator">=</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">*</span> min_height
-            <span class="token keyword">if</span> area_tmp <span class="token operator">></span> area_max<span class="token punctuation">:</span>
-                area_max <span class="token operator">=</span> area_tmp
-            <span class="token keyword">if</span> height<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&lt;</span> height<span class="token punctuation">[</span>right<span class="token punctuation">]</span><span class="token punctuation">:</span>
-                left <span class="token operator">+=</span> <span class="token number">1</span>
-            <span class="token keyword">else</span><span class="token punctuation">:</span>
-                right <span class="token operator">-=</span> <span class="token number">1</span>
-        <span class="token keyword">return</span> area_max<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="C"><a href="#C" class="headerlink" title="C++"></a><strong>C++</strong></h2><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-<span class="token keyword">public</span><span class="token operator">:</span>
-    <span class="token keyword">int</span> <span class="token function">maxArea</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span><span class="token operator">&amp;</span> height<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> left <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> right <span class="token operator">=</span> height<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> area_tmp <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> area_max <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token keyword">while</span> <span class="token punctuation">(</span>left <span class="token operator">&lt;</span> right<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            area_tmp <span class="token operator">=</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token punctuation">(</span>height<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&lt;</span> height<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">?</span> height<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">:</span> height<span class="token punctuation">[</span>right<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>area_tmp <span class="token operator">></span> area_max<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                area_max <span class="token operator">=</span> area_tmp<span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>height<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&lt;</span> height<span class="token punctuation">[</span>right<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                left<span class="token operator">++</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-            <span class="token keyword">else</span> <span class="token punctuation">{</span>
-                right<span class="token operator">--</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">return</span> area_max<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a><strong>PHP</strong></h2><pre class="line-numbers language-php"><code class="language-php"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-
-    <span class="token comment" spellcheck="true">/**
-     * @param Integer[] $height
-     * @return Integer
-     */</span>
-    <span class="token keyword">function</span> <span class="token function">maxArea</span><span class="token punctuation">(</span><span class="token variable">$height</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token variable">$area_tmp</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token variable">$area_max</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token variable">$left</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-        <span class="token variable">$right</span> <span class="token operator">=</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token variable">$height</span><span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-        <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token variable">$left</span> <span class="token operator">&lt;</span> <span class="token variable">$right</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token variable">$min_height</span> <span class="token operator">=</span> <span class="token variable">$height</span><span class="token punctuation">[</span><span class="token variable">$left</span><span class="token punctuation">]</span> <span class="token operator">></span> <span class="token variable">$height</span><span class="token punctuation">[</span><span class="token variable">$right</span><span class="token punctuation">]</span> <span class="token operator">?</span> <span class="token variable">$height</span><span class="token punctuation">[</span><span class="token variable">$right</span><span class="token punctuation">]</span> <span class="token punctuation">:</span> <span class="token variable">$height</span><span class="token punctuation">[</span><span class="token variable">$left</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-            <span class="token variable">$area_tmp</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token variable">$right</span> <span class="token operator">-</span> <span class="token variable">$left</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token variable">$min_height</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$area_tmp</span> <span class="token operator">></span> <span class="token variable">$area_max</span><span class="token punctuation">)</span><span class="token punctuation">{</span>           
-                <span class="token variable">$area_max</span> <span class="token operator">=</span> <span class="token variable">$area_tmp</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token variable">$height</span><span class="token punctuation">[</span><span class="token variable">$left</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> <span class="token variable">$height</span><span class="token punctuation">[</span><span class="token variable">$right</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                <span class="token variable">$left</span> <span class="token operator">+</span><span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-                <span class="token variable">$right</span> <span class="token operator">-</span><span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">return</span> <span class="token variable">$area_max</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <h3 id="Docker-简介"><a href="#Docker-简介" class="headerlink" title="Docker 简介"></a>Docker 简介</h3><p>Docker 是一个开源的应用容器引擎, 让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows机器上。使用Docker可以更方便低打包、测试以及部署应用程序。</p>
+<h3 id="Docker-环境安装"><a href="#Docker-环境安装" class="headerlink" title="Docker 环境安装"></a>Docker 环境安装</h3><p><strong>建议要体验Docker, 应采用虚拟机+ centos7 + Xshell 结合使用最佳.</strong></p>
+<ul>
+<li>安装yum-utils: <code>yum install -y yum-utils device-mapper-persistent-data lvm2</code></li>
+<li>为yum源添加docker仓库位置：<code>yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</code></li>
+<li>安装docker: <code>yum install docker-ce</code></li>
+<li>启动docker:  <code>systemctl start docker</code></li>
+<li>开机自动启动docker: <code>systemctl enable docker</code> # 我之前遇到”Is the docker daemon running?”的问题,运行该命令并重启即可解决</li>
+</ul>
+<h3 id="Docker-镜像常用命令"><a href="#Docker-镜像常用命令" class="headerlink" title="Docker 镜像常用命令"></a>Docker 镜像常用命令</h3><p>搜索镜像: <code>docker search mysql</code> # 要通过docker hub来搜索支持的版本。</p>
+<p>下载镜像: <code>docker pull mysql:5.7</code></p>
+<p>列出镜像: <code>docker images</code></p>
+<p>指定名称删除镜像（强制）: <code>docker rmi -f java:8</code></p>
+<p>删除所有没有引用的镜像: <code>docker rmi</code>docker images | grep none | awk ‘{print $3}’``</p>
+<p>强制删除所有镜像: <code>docker rmi -f $(docker images)</code></p>
+<h3 id="Docker-容器常用命令"><a href="#Docker-容器常用命令" class="headerlink" title="Docker 容器常用命令"></a>Docker 容器常用命令</h3><p>新建并启动容器: <code>docker run -p 80:80 --name nginx -d nginx:1.17.0</code> # -d选项：表示后台运行; –name选项：指定运行后容器的名字为nginx,之后可以通过名字来操作容器; -p选项：指定端口映射，格式为：hostPort:containerPort</p>
+<p>列出所有容器: <code>docker ps -a</code></p>
+<p>停止容器: <code>docker stop $ContainerName/$ContainerId</code></p>
+<p>强制停止容器: <code>docker kill $ContainerName/$ContainerId</code></p>
+<p>启动已停止的容器: <code>docker start $ContainerName/$ContainerId</code></p>
+<h3 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h3><ul>
+<li>先查询容器的pid:</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">docker inspect --format <span class="token string">"{{.State.Pid}}"</span> <span class="token variable">$ContainerName</span>/<span class="token variable">$ContainerId</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>根据容器的pid进入容器: <code>nsenter --target &quot;$pid&quot; --mount --uts --ipc --net --pid</code></li>
+</ul>
+<h3 id="删除容器"><a href="#删除容器" class="headerlink" title="删除容器"></a>删除容器</h3><ul>
+<li>删除指定容器: <code>docker rm $ContainerName(或者$ContainerId)</code></li>
+<li>按名称删除容器: <code>docker rm</code>docker ps -a | grep php-* | awk ‘{print $1}’``</li>
+<li>强制删除所有容器: <code>docker rm -f $(docker ps -a -q)</code></li>
+</ul>
+<p>动态查看容器日志: <code>docker logs $ContainerName(或者$ContainerId) -f</code></p>
+<p>查看容器的IP地址: </p>
+<pre class="line-numbers language-bash"><code class="language-bash">docker inspect --format <span class="token string">'{{ .NetworkSettings.IPAddress }}'</span> <span class="token variable">$ContainerName</span>/<span class="token variable">$ContainerId</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>修改容器的启动方式: <code>docker container update --restart=always $ContainerName</code></p>
+<p>同步宿主主机时间到容器: <code>docker cp /etc/localtime $ContainerName(或者$ContainerId):/etc/</code></p>
+<p>查看指定容器情况: <code>docker stats $ContainerName/$ContainerId</code> # -a表所有</p>
+<p>查看Docker磁盘使用情况: <code>docker system df</code></p>
+<p>进入Docker容器内部的bash: <code>docker exec -it $ContainerName /bin/bash</code></p>
+<h3 id="修改Docker镜像的存放位置"><a href="#修改Docker镜像的存放位置" class="headerlink" title="修改Docker镜像的存放位置"></a>修改Docker镜像的存放位置</h3><ul>
+<li>查看Docker镜像的存放位置: <code>docker info | grep &quot;Docker Root Dir&quot;</code></li>
+<li>关闭Docker服务: <code>systemctl stop docker</code></li>
+<li>移动目录到目标路径：<code>mv /var/lib/docker /mydata/docker</code></li>
+<li>建立软连接: <code>ln -s /mydata/docker /var/lib/docker</code></li>
+</ul>
 
             </div>
             <hr />
@@ -699,9 +669,9 @@ Output：3<span aria-hidden="true" class="line-numbers-rows"><span></span><span>
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《盛最多水的容器》
+                    《开发者必备Docker命令》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/04/21/container-with-most-water/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/05/05/docker-commands/" property="cc:attributionName"
                rel="cc:attributionURL">
                 刘琪
             </a> 采用
@@ -742,7 +712,7 @@ Output：3<span aria-hidden="true" class="line-numbers-rows"><span></span><span>
         repo: 'theliuqi.github.io',
         owner: 'theliuqi',
         admin: "theliuqi",
-        id: '2020/04/21/container-with-most-water/',
+        id: '2020/05/05/docker-commands/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1025,9 +995,60 @@ Output：3<span aria-hidden="true" class="line-numbers-rows"><span></span><span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2020/05/05/docker-commands/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="开发者必备Docker命令">
+                        
+                        <span class="card-title">开发者必备Docker命令</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Docker入门看这篇教程就足够了
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-05
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/技术/" class="post-category" target="_blank">
+                                    技术
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Docker/" target="_blank">
+                        <span class="chip bg-color">Docker</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2020/04/27/git/">
                     <div class="card-image">
@@ -1045,9 +1066,9 @@ Output：3<span aria-hidden="true" class="line-numbers-rows"><span></span><span>
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-27
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1065,55 +1086,6 @@ Output：3<span aria-hidden="true" class="line-numbers-rows"><span></span><span>
                     
                     <a href="/tags/Git/" target="_blank">
                         <span class="chip bg-color">Git</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2019/05/02/linux-commands/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="开发者必备Linux命令">
-                        
-                        <span class="card-title">开发者必备Linux命令</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            一文助你基本掌握Linux
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-02
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/技术/" class="post-category" target="_blank">
-                                    技术
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Linux/" target="_blank">
-                        <span class="chip bg-color">Linux</span>
                     </a>
                     
                 </div>
