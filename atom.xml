@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-05-05T03:24:31.872Z</updated>
+  <updated>2020-05-09T05:37:12.826Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>中文技术文档的写作规范</title>
+    <link href="https://theliuqi.top/2020/05/06/document-style-guide/"/>
+    <id>https://theliuqi.top/2020/05/06/document-style-guide/</id>
+    <published>2020-05-06T03:12:09.000Z</published>
+    <updated>2020-05-09T05:37:12.826Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本文摘录自&lt;a href=&quot;https://github.com/ruanyf/document-style-guide&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;中文技术文档的写作规范&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Docker" scheme="https://theliuqi.top/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
     <title>开发者必备Docker命令</title>
     <link href="https://theliuqi.top/2020/05/05/docker-commands/"/>
     <id>https://theliuqi.top/2020/05/05/docker-commands/</id>
     <published>2020-05-05T03:12:09.000Z</published>
-    <updated>2020-05-05T03:24:31.872Z</updated>
+    <updated>2020-05-05T03:30:14.616Z</updated>
     
     <summary type="html">
     
