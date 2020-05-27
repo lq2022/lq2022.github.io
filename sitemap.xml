@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://theliuqi.top/2020/05/27/1-1000/mysql-master-slave/</loc>
+    
+    <lastmod>2020-05-27T05:25:27.151Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/2019/05/02/linux-commands/</loc>
+    
+    <lastmod>2020-05-23T09:04:57.282Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/2020/04/27/git/</loc>
+    
+    <lastmod>2020-05-10T13:13:31.242Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://theliuqi.top/2020/05/06/document-style-guide/</loc>
     
-    <lastmod>2020-05-09T05:37:12.826Z</lastmod>
+    <lastmod>2020-05-09T05:48:47.983Z</lastmod>
     
   </url>
   
@@ -16,23 +37,9 @@
   </url>
   
   <url>
-    <loc>https://theliuqi.top/2020/04/21/container-with-most-water/</loc>
+    <loc>https://theliuqi.top/2020/04/21/leetcode/container-with-most-water/</loc>
     
     <lastmod>2020-05-04T01:04:04.801Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/2019/05/02/linux-commands/</loc>
-    
-    <lastmod>2020-05-02T02:49:40.626Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/2020/04/27/git/</loc>
-    
-    <lastmod>2020-04-27T14:35:33.337Z</lastmod>
     
   </url>
   
@@ -72,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://theliuqi.top/archives/index.html</loc>
+    <loc>https://theliuqi.top/artdd/index.html</loc>
     
     <lastmod>2019-11-14T08:48:40.945Z</lastmod>
     

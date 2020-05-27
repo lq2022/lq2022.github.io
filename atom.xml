@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-05-09T05:37:12.826Z</updated>
+  <updated>2020-05-27T05:25:27.151Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -14,14 +14,41 @@
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql主从复制实战</title>
+    <link href="https://theliuqi.top/2020/05/27/1-1000/mysql-master-slave/"/>
+    <id>https://theliuqi.top/2020/05/27/1-1000/mysql-master-slave/</id>
+    <published>2020-05-27T03:46:09.000Z</published>
+    <updated>2020-05-27T05:25:27.151Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Git" scheme="https://theliuqi.top/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>中文技术文档的写作规范</title>
     <link href="https://theliuqi.top/2020/05/06/document-style-guide/"/>
     <id>https://theliuqi.top/2020/05/06/document-style-guide/</id>
     <published>2020-05-06T03:12:09.000Z</published>
-    <updated>2020-05-09T05:37:12.826Z</updated>
+    <updated>2020-05-09T05:48:47.983Z</updated>
     
     <summary type="html">
     
@@ -36,10 +63,11 @@
     
     </summary>
     
+    
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Docker" scheme="https://theliuqi.top/tags/Docker/"/>
+      <category term="Document-Style" scheme="https://theliuqi.top/tags/Document-Style/"/>
     
   </entry>
   
@@ -62,6 +90,7 @@
     
     </summary>
     
+    
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
@@ -74,7 +103,7 @@
     <link href="https://theliuqi.top/2020/04/27/git/"/>
     <id>https://theliuqi.top/2020/04/27/git/</id>
     <published>2020-04-27T14:34:09.000Z</published>
-    <updated>2020-04-27T14:35:33.337Z</updated>
+    <updated>2020-05-10T13:13:31.242Z</updated>
     
     <summary type="html">
     
@@ -88,6 +117,7 @@
     
     </summary>
     
+    
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
@@ -97,8 +127,8 @@
   
   <entry>
     <title>盛最多水的容器</title>
-    <link href="https://theliuqi.top/2020/04/21/container-with-most-water/"/>
-    <id>https://theliuqi.top/2020/04/21/container-with-most-water/</id>
+    <link href="https://theliuqi.top/2020/04/21/leetcode/container-with-most-water/"/>
+    <id>https://theliuqi.top/2020/04/21/leetcode/container-with-most-water/</id>
     <published>2020-04-21T01:47:09.000Z</published>
     <updated>2020-05-04T01:04:04.801Z</updated>
     
@@ -114,6 +144,7 @@
     
     </summary>
     
+    
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
@@ -126,7 +157,7 @@
     <link href="https://theliuqi.top/2019/05/02/linux-commands/"/>
     <id>https://theliuqi.top/2019/05/02/linux-commands/</id>
     <published>2019-05-02T02:40:09.000Z</published>
-    <updated>2020-05-02T02:49:40.626Z</updated>
+    <updated>2020-05-23T09:04:57.282Z</updated>
     
     <summary type="html">
     
@@ -139,6 +170,7 @@
       
     
     </summary>
+    
     
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
