@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-05-27T05:25:27.151Z</updated>
+  <updated>2020-05-29T01:10:39.834Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>mysql主从复制实战</title>
-    <link href="https://theliuqi.top/2020/05/27/1-1000/mysql-master-slave/"/>
-    <id>https://theliuqi.top/2020/05/27/1-1000/mysql-master-slave/</id>
+    <link href="https://theliuqi.top/2020/05/27/1-100/mysql-master-slave/"/>
+    <id>https://theliuqi.top/2020/05/27/1-100/mysql-master-slave/</id>
     <published>2020-05-27T03:46:09.000Z</published>
-    <updated>2020-05-27T05:25:27.151Z</updated>
+    <updated>2020-05-29T01:10:39.834Z</updated>
     
     <summary type="html">
     
@@ -39,7 +39,7 @@
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Git" scheme="https://theliuqi.top/tags/Git/"/>
+      <category term="MySQL" scheme="https://theliuqi.top/tags/MySQL/"/>
     
   </entry>
   
