@@ -4,12 +4,14 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="开发者必备Docker命令, 刘琪 theliuqi Liuqi Python PHP">
+    <meta name="keywords" content="mysql主从复制实战, 刘琪 theliuqi Liuqi Python PHP">
     <meta name="baidu-site-verification" content="a0V0OBrZLv">
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="Docker 简介Docker 是一个开源的应用容器引擎, 让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows机器上。使用Docker可以更方便低打包、测试以及部署应用程序。
-Dock">
+    <meta name="description" content="准备刚开始是打算在Docker环境下开2个mysql实例来测试的,但遇到难以解决的bug,因此先在正常环境下搭建.
+我用了虚拟机和vps两个centos7系统, mysql都是5.5.62版本.
+正常搭建步骤
+在vps的mysql配置文件里">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@ Dock">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>开发者必备Docker命令 | 刘琪的博客</title>
+    <title>mysql主从复制实战 | 刘琪的博客</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -288,13 +290,13 @@ Dock">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        开发者必备Docker命令
+                        mysql主从复制实战
                     </div>
                 </div>
             </div>
@@ -405,8 +407,8 @@ Dock">
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Docker/" target="_blank">
-                            <span class="chip bg-color">Docker</span>
+                        <a href="/tags/MySQL/" target="_blank">
+                            <span class="chip bg-color">MySQL</span>
                         </a>
                         
                     </div>
@@ -429,7 +431,7 @@ Dock">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-05
+                    2020-05-27
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -443,14 +445,14 @@ Dock">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    654
+                    452
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
                 
@@ -466,54 +468,46 @@ Dock">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Docker-简介"><a href="#Docker-简介" class="headerlink" title="Docker 简介"></a>Docker 简介</h3><p>Docker 是一个开源的应用容器引擎, 让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows机器上。使用Docker可以更方便低打包、测试以及部署应用程序。</p>
-<h3 id="Docker-环境安装"><a href="#Docker-环境安装" class="headerlink" title="Docker 环境安装"></a>Docker 环境安装</h3><p><strong>建议要体验Docker, 应采用虚拟机+ centos7 + Xshell 结合使用最佳.</strong></p>
-<ul>
-<li>安装yum-utils: <code>yum install -y yum-utils device-mapper-persistent-data lvm2</code></li>
-<li>为yum源添加docker仓库位置：<code>yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</code></li>
-<li>安装docker: <code>yum install docker-ce</code></li>
-<li>启动docker:  <code>systemctl start docker</code></li>
-<li>开机自动启动docker: <code>systemctl enable docker</code> # 我之前遇到”Is the docker daemon running?”的问题,运行该命令并重启即可解决</li>
-</ul>
-<h3 id="Docker-镜像常用命令"><a href="#Docker-镜像常用命令" class="headerlink" title="Docker 镜像常用命令"></a>Docker 镜像常用命令</h3><p>搜索镜像: <code>docker search mysql</code> # 要通过docker hub来搜索支持的版本。</p>
-<p>下载镜像: <code>docker pull mysql:5.7</code></p>
-<p>列出镜像: <code>docker images</code></p>
-<p>指定名称删除镜像（强制）: <code>docker rmi -f java:8</code></p>
-<p>删除所有没有引用的镜像: </p>
-<pre class="line-numbers language-bash"><code class="language-bash">docker rmi `docker images <span class="token operator">|</span> <span class="token function">grep</span> none <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$3</span>}'</span>`<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>强制删除所有镜像: <code>docker rmi -f $(docker images)</code></p>
-<h3 id="Docker-容器常用命令"><a href="#Docker-容器常用命令" class="headerlink" title="Docker 容器常用命令"></a>Docker 容器常用命令</h3><p>新建并启动容器: <code>docker run -p 80:80 --name nginx -d nginx:1.17.0</code> # -d选项：表示后台运行; –name选项：指定运行后容器的名字为nginx,之后可以通过名字来操作容器; -p选项：指定端口映射，格式为：hostPort:containerPort</p>
-<p>列出所有容器: <code>docker ps -a</code></p>
-<p>停止容器: <code>docker stop $ContainerName/$ContainerId</code></p>
-<p>强制停止容器: <code>docker kill $ContainerName/$ContainerId</code></p>
-<p>启动已停止的容器: <code>docker start $ContainerName/$ContainerId</code></p>
-<h3 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h3><ul>
-<li>先查询容器的pid:</li>
-</ul>
-<pre class="line-numbers language-bash"><code class="language-bash">docker inspect --format <span class="token string">"{{.State.Pid}}"</span> <span class="token variable">$ContainerName</span>/<span class="token variable">$ContainerId</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<ul>
-<li>根据容器的pid进入容器: <code>nsenter --target &quot;$pid&quot; --mount --uts --ipc --net --pid</code></li>
-</ul>
-<h3 id="删除容器"><a href="#删除容器" class="headerlink" title="删除容器"></a>删除容器</h3><ul>
-<li>删除指定容器: <code>docker rm $ContainerName(或者$ContainerId)</code></li>
-<li>按名称删除容器:<pre class="line-numbers language-bash"><code class="language-bash">docker <span class="token function">rm</span> `docker <span class="token function">ps</span> -a <span class="token operator">|</span> <span class="token function">grep</span> php-* <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>}'</span>`<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>刚开始是打算在Docker环境下开2个mysql实例来测试的,但遇到难以解决的bug,因此先在正常环境下搭建.</p>
+<p>我用了虚拟机和vps两个centos7系统, mysql都是5.5.62版本.</p>
+<h2 id="正常搭建"><a href="#正常搭建" class="headerlink" title="正常搭建"></a>正常搭建</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<li>在vps的mysql配置文件里增加如下信息:<pre class="line-numbers language-bash"><code class="language-bash"><span class="token punctuation">[</span>mysqld<span class="token punctuation">]</span>
+log-bin<span class="token operator">=</span>mysql-bin
+server-id<span class="token operator">=</span>1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+改完重启.</li>
+<li>在本地虚拟机的mysql配置文件里增加如下信息:<pre class="line-numbers language-bash"><code class="language-bash"><span class="token punctuation">[</span>mysqld<span class="token punctuation">]</span>
+<span class="token comment" spellcheck="true">## 开启二进制日志功能，以备Slave作为其它数据库实例的Master时使用</span>
+log-bin<span class="token operator">=</span>mysql-slave-bin
+server-id<span class="token operator">=</span>2<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+改完也要重启.</li>
+<li>创建数据同步用户：<pre class="line-numbers language-bash"><code class="language-bash"><span class="token punctuation">[</span>mysqld<span class="token punctuation">]</span>
+log-bin<span class="token operator">=</span>mysql-slave-bin
+server-id<span class="token operator">=</span>2<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
-<li>强制删除所有容器: <code>docker rm -f $(docker ps -a -q)</code></li>
+<li>创建数据同步用户:  <pre class="line-numbers language-bash"><code class="language-bash">CREATE USER <span class="token string">'slave'</span>@<span class="token string">'%'</span> IDENTIFIED BY <span class="token string">'123456'</span><span class="token punctuation">;</span>
+GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO <span class="token string">'slave'</span>@<span class="token string">'%'</span><span class="token punctuation">;</span>
+FLUSH PRIVILEGES<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</li>
+<li>查看主数据库状态：<code>show master status;</code>,记下<code>File</code>及<code>Position</code>的值以备用.</li>
+<li>在从数据库中配置主从复制：<pre class="line-numbers language-bash"><code class="language-bash">change master to master_host<span class="token operator">=</span><span class="token string">'45.78.23.24'</span>, master_user<span class="token operator">=</span><span class="token string">'slave'</span>, master_password<span class="token operator">=</span><span class="token string">'123456'</span>, master_port<span class="token operator">=</span>3306, master_log_file<span class="token operator">=</span><span class="token string">'mysql-bin.000241'</span>, master_log_pos<span class="token operator">=</span>1229, master_connect_retry<span class="token operator">=</span>30<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li>开启主从同步：<code>start slave;</code></li>
+<li>查看主从同步状态：<code>show slave status;</code>,这俩参数为Yes说明成功了.<br><img src="slave-io.jpg" alt="slave-io"></li>
+<li>我们可以在主数据库建个数据库,然后发现从数据库也出现了.</li>
+<li>最后将slave账号删掉,使用<code>Navicat</code>会比较快捷.<h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3>在搭建过程中我遇到了<code>Slave_IO_Running: No</code>的问题,百思不得其解,通过查看mysql错误日志,<br><img src="slave-error.jpg" alt="slave-error">发现是mysql并没有更新server_id,于是执行<pre class="line-numbers language-bash"><code class="language-bash">mysql<span class="token operator">></span> <span class="token keyword">set</span> global server_id<span class="token operator">=</span>2<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">#此处的数值和my.cnf里设置的一样就行</span>
+mysql<span class="token operator">></span> slave start<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+,便解决了问题.</li>
+</ol>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>文章</p>
+<ul>
+<li><a href="http://www.macrozheng.com/#/reference/mysql_master_slave">Docker-mysql主从复制</a></li>
+<li><a href="https://blog.csdn.net/u013421629/article/details/78793966">csdn读写分离</a> </li>
+<li><a href="https://www.jianshu.com/p/1ac435a6510e">MySQL读写分离最佳实践</a></li>
+<li><a href="https://segmentfault.com/a/1190000003716617">读写分离-多赞</a></li>
 </ul>
-<p>动态查看容器日志: <code>docker logs $ContainerName(或者$ContainerId) -f</code></p>
-<p>查看容器的IP地址: </p>
-<pre class="line-numbers language-bash"><code class="language-bash">docker inspect --format <span class="token string">'{{ .NetworkSettings.IPAddress }}'</span> <span class="token variable">$ContainerName</span>/<span class="token variable">$ContainerId</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>修改容器的启动方式: <code>docker container update --restart=always $ContainerName</code></p>
-<p>同步宿主主机时间到容器: <code>docker cp /etc/localtime $ContainerName(或者$ContainerId):/etc/</code></p>
-<p>查看指定容器情况: <code>docker stats $ContainerName/$ContainerId</code> # -a表所有</p>
-<p>查看Docker磁盘使用情况: <code>docker system df</code></p>
-<p>进入Docker容器内部的bash: <code>docker exec -it $ContainerName /bin/bash</code></p>
-<h3 id="修改Docker镜像的存放位置"><a href="#修改Docker镜像的存放位置" class="headerlink" title="修改Docker镜像的存放位置"></a>修改Docker镜像的存放位置</h3><ul>
-<li>查看Docker镜像的存放位置: <code>docker info | grep &quot;Docker Root Dir&quot;</code></li>
-<li>关闭Docker服务: <code>systemctl stop docker</code></li>
-<li>移动目录到目标路径：<code>mv /var/lib/docker /mydata/docker</code></li>
-<li>建立软连接: <code>ln -s /mydata/docker /var/lib/docker</code></li>
-</ul>
+<h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>查容器IP,命令如下: </p>
+<pre class="line-numbers language-bash"><code class="language-bash">docker <span class="token function">ps</span> <span class="token comment" spellcheck="true"># 查看所有容器</span>
+docker inspect -f <span class="token string">'{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'</span> ContainerID  <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
             </div>
             <hr />
@@ -672,9 +666,9 @@ Dock">
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《开发者必备Docker命令》
+                    《mysql主从复制实战》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/05/05/docker-commands/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/05/27/mysql-master-slave/" property="cc:attributionName"
                rel="cc:attributionURL">
                 刘琪
             </a> 采用
@@ -715,7 +709,7 @@ Dock">
         repo: 'theliuqi.github.io',
         owner: 'theliuqi',
         admin: "theliuqi",
-        id: '2020/05/05/docker-commands/',
+        id: '2020/05/27/mysql-master-slave/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1002,6 +996,55 @@ Dock">
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/2020/06/26/vscode/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Vscode使用记录">
+                        
+                        <span class="card-title">Vscode使用记录</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            良心推荐
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-26
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/技术/" class="post-category" target="_blank">
+                                    技术
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Vscode/" target="_blank">
+                        <span class="chip bg-color">Vscode</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/2020/05/06/document-style-guide/">
                     <div class="card-image">
                         
@@ -1018,9 +1061,9 @@ Dock">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1038,55 +1081,6 @@ Dock">
                     
                     <a href="/tags/Document-Style/" target="_blank">
                         <span class="chip bg-color">Document-Style</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/04/27/git/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Git入门">
-                        
-                        <span class="card-title">Git入门</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Git入门看这一篇就够了!
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-27
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/技术/" class="post-category" target="_blank">
-                                    技术
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Git/" target="_blank">
-                        <span class="chip bg-color">Git</span>
                     </a>
                     
                 </div>

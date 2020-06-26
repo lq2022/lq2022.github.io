@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-05-29T01:10:39.834Z</updated>
+  <updated>2020-06-26T14:20:53.866Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vscode使用记录</title>
+    <link href="https://theliuqi.top/2020/06/26/vscode/"/>
+    <id>https://theliuqi.top/2020/06/26/vscode/</id>
+    <published>2020-06-26T14:34:09.000Z</published>
+    <updated>2020-06-26T14:20:53.866Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 Vscode。&lt;/p&gt;
+&lt;h2 id=&quot;用于写-Markdown&quot;&gt;&lt;a href=&quot;#用于写-Markdown&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Vscode" scheme="https://theliuqi.top/tags/Vscode/"/>
+    
+  </entry>
+  
+  <entry>
     <title>mysql主从复制实战</title>
-    <link href="https://theliuqi.top/2020/05/27/1-100/mysql-master-slave/"/>
-    <id>https://theliuqi.top/2020/05/27/1-100/mysql-master-slave/</id>
+    <link href="https://theliuqi.top/2020/05/27/mysql-master-slave/"/>
+    <id>https://theliuqi.top/2020/05/27/mysql-master-slave/</id>
     <published>2020-05-27T03:46:09.000Z</published>
-    <updated>2020-05-29T01:10:39.834Z</updated>
+    <updated>2020-06-22T14:40:57.252Z</updated>
     
     <summary type="html">
     
@@ -103,7 +131,7 @@
     <link href="https://theliuqi.top/2020/04/27/git/"/>
     <id>https://theliuqi.top/2020/04/27/git/</id>
     <published>2020-04-27T14:34:09.000Z</published>
-    <updated>2020-05-10T13:13:31.242Z</updated>
+    <updated>2020-06-22T15:11:24.985Z</updated>
     
     <summary type="html">
     
@@ -127,10 +155,10 @@
   
   <entry>
     <title>盛最多水的容器</title>
-    <link href="https://theliuqi.top/2020/04/21/leetcode/container-with-most-water/"/>
-    <id>https://theliuqi.top/2020/04/21/leetcode/container-with-most-water/</id>
+    <link href="https://theliuqi.top/2020/04/21/other/container-with-most-water/"/>
+    <id>https://theliuqi.top/2020/04/21/other/container-with-most-water/</id>
     <published>2020-04-21T01:47:09.000Z</published>
-    <updated>2020-05-04T01:04:04.801Z</updated>
+    <updated>2020-06-22T14:47:25.771Z</updated>
     
     <summary type="html">
     
@@ -138,7 +166,7 @@
       
         
         
-          &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://leetcode-cn.com/problems/container-with-most-water/&quot;
+          &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;&lt;a
         
       
     
@@ -157,7 +185,7 @@
     <link href="https://theliuqi.top/2019/05/02/linux-commands/"/>
     <id>https://theliuqi.top/2019/05/02/linux-commands/</id>
     <published>2019-05-02T02:40:09.000Z</published>
-    <updated>2020-05-23T09:04:57.282Z</updated>
+    <updated>2020-06-22T15:25:46.380Z</updated>
     
     <summary type="html">
     
@@ -165,7 +193,7 @@
       
         
         
-          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86
         
       
     

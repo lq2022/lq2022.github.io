@@ -4,12 +4,12 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="开发者必备Docker命令, 刘琪 theliuqi Liuqi Python PHP">
+    <meta name="keywords" content="Vscode使用记录, 刘琪 theliuqi Liuqi Python PHP">
     <meta name="baidu-site-verification" content="a0V0OBrZLv">
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="Docker 简介Docker 是一个开源的应用容器引擎, 让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows机器上。使用Docker可以更方便低打包、测试以及部署应用程序。
-Dock">
+    <meta name="description" content="最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 Vscode。
+用于写 MarkdownVscode 绝对是写 Markdown 的最佳编辑">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@ Dock">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>开发者必备Docker命令 | 刘琪的博客</title>
+    <title>Vscode使用记录 | 刘琪的博客</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -288,13 +288,13 @@ Dock">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        开发者必备Docker命令
+                        Vscode使用记录
                     </div>
                 </div>
             </div>
@@ -405,8 +405,8 @@ Dock">
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Docker/" target="_blank">
-                            <span class="chip bg-color">Docker</span>
+                        <a href="/tags/Vscode/" target="_blank">
+                            <span class="chip bg-color">Vscode</span>
                         </a>
                         
                     </div>
@@ -429,7 +429,7 @@ Dock">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-05
+                    2020-06-26
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -443,14 +443,14 @@ Dock">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    654
+                    404
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
                 
@@ -466,54 +466,14 @@ Dock">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Docker-简介"><a href="#Docker-简介" class="headerlink" title="Docker 简介"></a>Docker 简介</h3><p>Docker 是一个开源的应用容器引擎, 让开发者可以打包他们的应用以及依赖包到一个可移植的镜像中，然后发布到任何流行的 Linux或Windows机器上。使用Docker可以更方便低打包、测试以及部署应用程序。</p>
-<h3 id="Docker-环境安装"><a href="#Docker-环境安装" class="headerlink" title="Docker 环境安装"></a>Docker 环境安装</h3><p><strong>建议要体验Docker, 应采用虚拟机+ centos7 + Xshell 结合使用最佳.</strong></p>
-<ul>
-<li>安装yum-utils: <code>yum install -y yum-utils device-mapper-persistent-data lvm2</code></li>
-<li>为yum源添加docker仓库位置：<code>yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</code></li>
-<li>安装docker: <code>yum install docker-ce</code></li>
-<li>启动docker:  <code>systemctl start docker</code></li>
-<li>开机自动启动docker: <code>systemctl enable docker</code> # 我之前遇到”Is the docker daemon running?”的问题,运行该命令并重启即可解决</li>
-</ul>
-<h3 id="Docker-镜像常用命令"><a href="#Docker-镜像常用命令" class="headerlink" title="Docker 镜像常用命令"></a>Docker 镜像常用命令</h3><p>搜索镜像: <code>docker search mysql</code> # 要通过docker hub来搜索支持的版本。</p>
-<p>下载镜像: <code>docker pull mysql:5.7</code></p>
-<p>列出镜像: <code>docker images</code></p>
-<p>指定名称删除镜像（强制）: <code>docker rmi -f java:8</code></p>
-<p>删除所有没有引用的镜像: </p>
-<pre class="line-numbers language-bash"><code class="language-bash">docker rmi `docker images <span class="token operator">|</span> <span class="token function">grep</span> none <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$3</span>}'</span>`<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>强制删除所有镜像: <code>docker rmi -f $(docker images)</code></p>
-<h3 id="Docker-容器常用命令"><a href="#Docker-容器常用命令" class="headerlink" title="Docker 容器常用命令"></a>Docker 容器常用命令</h3><p>新建并启动容器: <code>docker run -p 80:80 --name nginx -d nginx:1.17.0</code> # -d选项：表示后台运行; –name选项：指定运行后容器的名字为nginx,之后可以通过名字来操作容器; -p选项：指定端口映射，格式为：hostPort:containerPort</p>
-<p>列出所有容器: <code>docker ps -a</code></p>
-<p>停止容器: <code>docker stop $ContainerName/$ContainerId</code></p>
-<p>强制停止容器: <code>docker kill $ContainerName/$ContainerId</code></p>
-<p>启动已停止的容器: <code>docker start $ContainerName/$ContainerId</code></p>
-<h3 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h3><ul>
-<li>先查询容器的pid:</li>
-</ul>
-<pre class="line-numbers language-bash"><code class="language-bash">docker inspect --format <span class="token string">"{{.State.Pid}}"</span> <span class="token variable">$ContainerName</span>/<span class="token variable">$ContainerId</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<ul>
-<li>根据容器的pid进入容器: <code>nsenter --target &quot;$pid&quot; --mount --uts --ipc --net --pid</code></li>
-</ul>
-<h3 id="删除容器"><a href="#删除容器" class="headerlink" title="删除容器"></a>删除容器</h3><ul>
-<li>删除指定容器: <code>docker rm $ContainerName(或者$ContainerId)</code></li>
-<li>按名称删除容器:<pre class="line-numbers language-bash"><code class="language-bash">docker <span class="token function">rm</span> `docker <span class="token function">ps</span> -a <span class="token operator">|</span> <span class="token function">grep</span> php-* <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>}'</span>`<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-</li>
-<li>强制删除所有容器: <code>docker rm -f $(docker ps -a -q)</code></li>
-</ul>
-<p>动态查看容器日志: <code>docker logs $ContainerName(或者$ContainerId) -f</code></p>
-<p>查看容器的IP地址: </p>
-<pre class="line-numbers language-bash"><code class="language-bash">docker inspect --format <span class="token string">'{{ .NetworkSettings.IPAddress }}'</span> <span class="token variable">$ContainerName</span>/<span class="token variable">$ContainerId</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>修改容器的启动方式: <code>docker container update --restart=always $ContainerName</code></p>
-<p>同步宿主主机时间到容器: <code>docker cp /etc/localtime $ContainerName(或者$ContainerId):/etc/</code></p>
-<p>查看指定容器情况: <code>docker stats $ContainerName/$ContainerId</code> # -a表所有</p>
-<p>查看Docker磁盘使用情况: <code>docker system df</code></p>
-<p>进入Docker容器内部的bash: <code>docker exec -it $ContainerName /bin/bash</code></p>
-<h3 id="修改Docker镜像的存放位置"><a href="#修改Docker镜像的存放位置" class="headerlink" title="修改Docker镜像的存放位置"></a>修改Docker镜像的存放位置</h3><ul>
-<li>查看Docker镜像的存放位置: <code>docker info | grep &quot;Docker Root Dir&quot;</code></li>
-<li>关闭Docker服务: <code>systemctl stop docker</code></li>
-<li>移动目录到目标路径：<code>mv /var/lib/docker /mydata/docker</code></li>
-<li>建立软连接: <code>ln -s /mydata/docker /var/lib/docker</code></li>
-</ul>
+                <p>最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 Vscode。</p>
+<h2 id="用于写-Markdown"><a href="#用于写-Markdown" class="headerlink" title="用于写 Markdown"></a>用于写 Markdown</h2><p>Vscode 绝对是写 Markdown 的最佳编辑器，只是很多人不知道。网上众推的 Typora 编辑器不支持多标签浏览而且有时会卡顿，比较适合非程序员使用。</p>
+<p>只需安装如图所示插件即可享用。上面那个扩展内置了一些快捷键及目录自动生成，还是挺方便的。下方扩展让实时预览以 GitHub 的风格显示，必备。<br><img src="http://theliuqi.oss-cn-shenzhen.aliyuncs.com/notes/20200624/214800550.png" alt="mark"><br>后来我动手写了一些 Snippet 来提高效率，比如我输入 md 再按回车就会生成我想要的 Markdown 文件的基本结构，这个技巧强烈推荐使用。</p>
+<h2 id="用于项目提交"><a href="#用于项目提交" class="headerlink" title="用于项目提交"></a>用于项目提交</h2><p>Vscode 内置了控制台和对 Git 的支持，使得它几乎媲美 IDE。对于一名程序员来说，使用控制台和 Git 可说是最常用的功能之一，内置它们极大地提升了我的效率。具体用法可参考<a href="#参考阅读">官方文档</a>，此外，虽然纯英文文档一开始让人有不舒服的感觉，我还是建议要阅读官方文档，如果挺过去了，我们能获得英文水平、视野及自信心的提升，还是很划算的。</p>
+<h2 id="用于编程"><a href="#用于编程" class="headerlink" title="用于编程"></a>用于编程</h2><p>建议安装官方推荐的扩展并查阅<a href="#参考阅读">官方文档</a>。Vscode 不是最好的编辑器，但它是最全能的编辑器。</p>
+<h2 id="参考阅读"><a href="#参考阅读" class="headerlink" title="参考阅读"></a>参考阅读</h2><ol>
+<li><a href="https://code.visualstudio.com/docs">Vscode 官方文档</a></li>
+</ol>
 
             </div>
             <hr />
@@ -672,9 +632,9 @@ Dock">
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《开发者必备Docker命令》
+                    《Vscode使用记录》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/05/05/docker-commands/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/06/26/vscode/" property="cc:attributionName"
                rel="cc:attributionURL">
                 刘琪
             </a> 采用
@@ -715,7 +675,7 @@ Dock">
         repo: 'theliuqi.github.io',
         owner: 'theliuqi',
         admin: "theliuqi",
-        id: '2020/05/05/docker-commands/',
+        id: '2020/06/26/vscode/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -998,29 +958,30 @@ Dock">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/06/document-style-guide/">
+                <a href="/2020/06/26/vscode/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="中文技术文档的写作规范">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Vscode使用记录">
                         
-                        <span class="card-title">中文技术文档的写作规范</span>
+                        <span class="card-title">Vscode使用记录</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文摘录了"中文技术文档的写作规范"的一部分
+                            良心推荐
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1033,11 +994,12 @@ Dock">
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Document-Style/" target="_blank">
-                        <span class="chip bg-color">Document-Style</span>
+                    <a href="/tags/Vscode/" target="_blank">
+                        <span class="chip bg-color">Vscode</span>
                     </a>
                     
                 </div>
@@ -1051,24 +1013,24 @@ Dock">
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/27/git/">
+                <a href="/2020/05/27/mysql-master-slave/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Git入门">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="mysql主从复制实战">
                         
-                        <span class="card-title">Git入门</span>
+                        <span class="card-title">mysql主从复制实战</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git入门看这一篇就够了!
+                            Docker环境下的后续再补充
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-27
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-27
                             </span>
                         <span class="publish-author">
                             
@@ -1085,8 +1047,8 @@ Dock">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Git/" target="_blank">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/tags/MySQL/" target="_blank">
+                        <span class="chip bg-color">MySQL</span>
                     </a>
                     
                 </div>

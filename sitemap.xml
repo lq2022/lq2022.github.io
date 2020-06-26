@@ -2,23 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://theliuqi.top/2020/05/27/1-100/mysql-master-slave/</loc>
+    <loc>https://theliuqi.top/2020/06/26/vscode/</loc>
     
-    <lastmod>2020-05-29T01:10:39.834Z</lastmod>
+    <lastmod>2020-06-26T14:20:53.866Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://theliuqi.top/2019/05/02/linux-commands/</loc>
     
-    <lastmod>2020-05-23T09:04:57.282Z</lastmod>
+    <lastmod>2020-06-22T15:25:46.380Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://theliuqi.top/2020/04/27/git/</loc>
     
-    <lastmod>2020-05-10T13:13:31.242Z</lastmod>
+    <lastmod>2020-06-22T15:11:24.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/2020/04/21/other/container-with-most-water/</loc>
+    
+    <lastmod>2020-06-22T14:47:25.771Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/2020/05/27/mysql-master-slave/</loc>
+    
+    <lastmod>2020-06-22T14:40:57.252Z</lastmod>
     
   </url>
   
@@ -33,13 +47,6 @@
     <loc>https://theliuqi.top/2020/05/05/docker-commands/</loc>
     
     <lastmod>2020-05-05T03:30:14.616Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/2020/04/21/leetcode/container-with-most-water/</loc>
-    
-    <lastmod>2020-05-04T01:04:04.801Z</lastmod>
     
   </url>
   

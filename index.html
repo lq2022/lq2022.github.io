@@ -316,13 +316,6 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
-    <div id="prev-cover" class="left waves-effect carousel-control">
-        <i class="icon fa fa-angle-left"></i>
-    </div>
-    <div id="next-cover" class="right waves-effect carousel-control">
-        <i class="icon fa fa-angle-right"></i>
-    </div>
-    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -344,7 +337,7 @@
 <script>
 // 每天切换 banner 图.  Switch banner image every day. new Date().getDay() 
 // Math.floor(Math.random()*7) 可均衡获取 0 到 6 的随机整数
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + Math.floor(Math.random()*3) + '.jpg)');
+$('.bg-cover').css('background-image', 'url(/medias/banner/' +  '0.jpg)');
 </script>
 
 
@@ -394,37 +387,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + Math.floor(Math.r
         </div>
     </div>
 
-    
-    
-
-    
-    
-    <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/14.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col s10 offset-s1">
-                    <div class="title center-align">开发者必备Linux命令</div>
-                    <div class="description center-align">
-                    
-                        
-
-系统服务管理
-输出系统中各个服务的状态：systemctl list-units --type=service
-查看服务的运行状态：systemctl status firewalld
-关闭服务: systemctl stop fire
-                    
-                    </div>
-                    <div class="cover-btns">
-                        <a href="/2019/05/02/linux-commands/" class="waves-effect waves-light btn" target="_blank">
-                            <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
     
 </div>
 
@@ -489,38 +451,6 @@ $(function () {
 
 
 
-
-
-<div class="title"><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;推荐文章</div>
-
-<div class="row">
-
-    
-    
-    <div class="col s12" >
-        <div class="post-card" style="background-image: url('/medias/featureimages/6.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                    <a href="/categories/技术/" class="category" target="_blank">技术</a>
-                    
-                </div>
-                <a href="/2020/04/27/git/" target="_blank">
-                    <h3 class="post-title">Git入门</h3>
-                </a>
-                <p class="post-description">Git入门看这一篇就够了!</p>
-                <a href="/2020/04/27/git/" target="_blank"
-                        class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
-                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-
-</div>
-
-
                     </div>
                 </div>
             </div>
@@ -536,7 +466,54 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/05/27/1-100/mysql-master-slave/" target="_blank">
+                    <a href="/2020/06/26/vscode/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Vscode使用记录">
+                            
+                            <span class="card-title">Vscode使用记录</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            良心推荐
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-26
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/技术/" class="post-category" target="_blank">
+                                    技术
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Vscode/" target="_blank">
+                            <span class="chip bg-color">Vscode</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/05/27/mysql-master-slave/" target="_blank">
                         <div class="card-image">
                             
                             
@@ -724,7 +701,7 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/04/21/leetcode/container-with-most-water/" target="_blank">
+                    <a href="/2020/04/21/other/container-with-most-water/" target="_blank">
                         <div class="card-image">
                             
                             
@@ -834,7 +811,7 @@ $(function () {
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">4.4k</span>
+            <span class="white-color">4.8k</span>
             
 
             <br>
