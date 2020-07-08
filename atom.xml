@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-06-26T14:20:53.866Z</updated>
+  <updated>2020-07-04T12:00:08.031Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Vscode使用记录</title>
-    <link href="https://theliuqi.top/2020/06/26/vscode/"/>
-    <id>https://theliuqi.top/2020/06/26/vscode/</id>
+    <title>VS Code使用记录</title>
+    <link href="https://theliuqi.top/2020/06/26/vs-code/"/>
+    <id>https://theliuqi.top/2020/06/26/vs-code/</id>
     <published>2020-06-26T14:34:09.000Z</published>
-    <updated>2020-06-26T14:20:53.866Z</updated>
+    <updated>2020-07-04T12:00:08.031Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;p&gt;最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 Vscode。&lt;/p&gt;
+          &lt;p&gt;最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 VS Code。&lt;/p&gt;
 &lt;h2 id=&quot;用于写-Markdown&quot;&gt;&lt;a href=&quot;#用于写-Markdown&quot;
         
       
@@ -40,16 +40,16 @@
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Vscode" scheme="https://theliuqi.top/tags/Vscode/"/>
+      <category term="VS Code" scheme="https://theliuqi.top/tags/VS-Code/"/>
     
   </entry>
   
   <entry>
-    <title>mysql主从复制实战</title>
+    <title>MySQL主从复制实战</title>
     <link href="https://theliuqi.top/2020/05/27/mysql-master-slave/"/>
     <id>https://theliuqi.top/2020/05/27/mysql-master-slave/</id>
     <published>2020-05-27T03:46:09.000Z</published>
-    <updated>2020-06-22T14:40:57.252Z</updated>
+    <updated>2020-06-26T14:27:38.560Z</updated>
     
     <summary type="html">
     
@@ -76,7 +76,7 @@
     <link href="https://theliuqi.top/2020/05/06/document-style-guide/"/>
     <id>https://theliuqi.top/2020/05/06/document-style-guide/</id>
     <published>2020-05-06T03:12:09.000Z</published>
-    <updated>2020-05-09T05:48:47.983Z</updated>
+    <updated>2020-07-08T03:00:39.528Z</updated>
     
     <summary type="html">
     
@@ -84,8 +84,8 @@
       
         
         
-          &lt;blockquote&gt;
-&lt;p&gt;本文摘录自&lt;a href=&quot;https://github.com/ruanyf/document-style-guide&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;中文技术文档的写作规范&lt;/a&gt;
+          &lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;层级: 标题分为四级; 一级标题：文章的标题;
         
       
     
