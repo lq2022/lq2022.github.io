@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://theliuqi.top/2020/05/06/document-style-guide/</loc>
+    <loc>https://theliuqi.top/2020/07/22/other/personal-plan/</loc>
     
-    <lastmod>2020-07-08T05:58:37.117Z</lastmod>
+    <lastmod>2020-07-22T00:54:17.856Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/2020/07/16/private-manual/</loc>
+    
+    <lastmod>2020-07-22T00:38:47.251Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/about/index.html</loc>
+    
+    <lastmod>2020-07-16T10:00:49.536Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://theliuqi.top/2020/04/27/git/</loc>
     
-    <lastmod>2020-07-08T03:47:57.069Z</lastmod>
+    <lastmod>2020-07-16T09:05:32.159Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://theliuqi.top/2020/05/06/document-style-guide/</loc>
+    
+    <lastmod>2020-07-08T05:58:37.117Z</lastmod>
     
   </url>
   
@@ -54,13 +75,6 @@
     <loc>https://theliuqi.top/friends/index.html</loc>
     
     <lastmod>2020-04-21T03:54:32.391Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/about/index.html</loc>
-    
-    <lastmod>2020-04-17T01:43:38.306Z</lastmod>
     
   </url>
   

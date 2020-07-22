@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://theliuqi.top/2020/05/06/document-style-guide/</loc>
-    <lastmod>2020-07-08</lastmod>
+    <loc>https://theliuqi.top/2020/07/22/other/personal-plan/</loc>
+    <lastmod>2020-07-22</lastmod>
+  </url>  <url>
+    <loc>https://theliuqi.top/2020/07/16/private-manual/</loc>
+    <lastmod>2020-07-22</lastmod>
   </url>  <url>
     <loc>https://theliuqi.top/2020/04/27/git/</loc>
+    <lastmod>2020-07-16</lastmod>
+  </url>  <url>
+    <loc>https://theliuqi.top/2020/05/06/document-style-guide/</loc>
     <lastmod>2020-07-08</lastmod>
   </url>  <url>
     <loc>https://theliuqi.top/2020/06/26/vs-code/</loc>

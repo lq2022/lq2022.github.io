@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-07-04T12:00:08.031Z</updated>
+  <updated>2020-07-22T00:54:17.856Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设定个人发展目标和计划</title>
+    <link href="https://theliuqi.top/2020/07/22/other/personal-plan/"/>
+    <id>https://theliuqi.top/2020/07/22/other/personal-plan/</id>
+    <published>2020-07-22T00:08:21.000Z</published>
+    <updated>2020-07-22T00:54:17.856Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;大部分人从来没有【明确】地设定自己的发展目标，每天都是得过且过。等到几年过去了，才发现自己这些年啥也没学会，还是老样子，然后就感叹时光飞逝、岁月如梭。&lt;/p&gt;
+&lt;p&gt;因此，今天我们来聊一下如何设定个人发展目标。（如果你平时已经很善于定期设定个人发展目标并执行得很好，恭喜你，
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://theliuqi.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="转载" scheme="https://theliuqi.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>私人手册</title>
+    <link href="https://theliuqi.top/2020/07/16/private-manual/"/>
+    <id>https://theliuqi.top/2020/07/16/private-manual/</id>
+    <published>2020-07-16T09:08:21.000Z</published>
+    <updated>2020-07-22T00:38:47.251Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;最常用&quot;&gt;&lt;a href=&quot;#最常用&quot; class=&quot;headerlink&quot; title=&quot;最常用&quot;&gt;&lt;/a&gt;最常用&lt;/h2&gt;&lt;h3 id=&quot;Redis&quot;&gt;&lt;a href=&quot;#Redis&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>VS Code使用记录</title>
@@ -131,7 +182,7 @@
     <link href="https://theliuqi.top/2020/04/27/git/"/>
     <id>https://theliuqi.top/2020/04/27/git/</id>
     <published>2020-04-27T14:34:09.000Z</published>
-    <updated>2020-07-08T03:47:57.069Z</updated>
+    <updated>2020-07-16T09:05:32.159Z</updated>
     
     <summary type="html">
     

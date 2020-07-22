@@ -4,12 +4,14 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="VS Code使用记录, 刘琪 theliuqi Liuqi Python PHP">
+    <meta name="keywords" content="私人手册, 刘琪 theliuqi Liuqi Python PHP">
     <meta name="baidu-site-verification" content="a0V0OBrZLv">
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 VS Code。
-用于写 MarkdownVS Code 绝对是写 Markdown 的最佳">
+    <meta name="description" content="最常用Redis常用命令
+set password &#34;123456&#34; ex 30
+ttl password #剩余生存时间，存在但没设置返回-1
+hmset stu2 name wang age 18 gender female tel 1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>VS Code使用记录 | 刘琪的博客</title>
+    <title>私人手册 | 刘琪的博客</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -288,13 +290,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/25.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        VS Code使用记录
+                        私人手册
                     </div>
                 </div>
             </div>
@@ -404,24 +406,11 @@
                 <div class="col s7">
                     
                     <div class="article-tag">
-                        
-                        <a href="/tags/VS-Code/" target="_blank">
-                            <span class="chip bg-color">VS Code</span>
-                        </a>
-                        
+                        <span class="chip bg-color">无标签</span>
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
-                        
-                        <a href="/categories/技术/" class="post-category" target="_blank">
-                            技术
-                        </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -429,7 +418,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-26
+                    2020-07-16
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -443,7 +432,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    409
+                    503
                 </div>
                 
 
@@ -466,13 +455,45 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>最近由于痴迷于写 Markdown 文档，我爱上了 Visual Studio Code 这款编辑器，这篇文章将为你它的种种用途。为了方便以下简称 VS Code。</p>
-<h2 id="用于写-Markdown"><a href="#用于写-Markdown" class="headerlink" title="用于写 Markdown"></a>用于写 Markdown</h2><p>VS Code 绝对是写 Markdown 的最佳编辑器，只是很多人不知道。网上众推的 Typora 编辑器不支持多标签浏览而且有时会卡顿，比较适合非程序员使用。</p>
-<p>只需安装如图所示插件即可享用。上面那个扩展内置了一些快捷键及目录自动生成，还是挺方便的。下方扩展让实时预览以 GitHub 的风格显示，必备。<br><img src="http://theliuqi.oss-cn-shenzhen.aliyuncs.com/notes/20200624/214800550.png" alt="mark"><br>后来我动手写了一些 Snippet 来提高效率，比如我输入 md 再按回车就会生成我想要的 Markdown 文件的基本结构，这个技巧强烈推荐使用。</p>
-<h2 id="用于项目提交"><a href="#用于项目提交" class="headerlink" title="用于项目提交"></a>用于项目提交</h2><p>VS Code 内置了控制台和对 Git 的支持，使得它几乎媲美 IDE。对于一名程序员来说，使用控制台和 Git 可说是最常用的功能之一，内置它们极大地提升了我的效率。具体用法可参考<a href="#参考阅读">官方文档</a>，此外，虽然纯英文文档一开始让人有不舒服的感觉，我还是建议要阅读官方文档，如果挺过去了，我们能获得英文水平、视野及自信心的提升，还是很划算的。</p>
-<h2 id="用于编程"><a href="#用于编程" class="headerlink" title="用于编程"></a>用于编程</h2><p>建议安装官方推荐的扩展并查阅<a href="#参考阅读">官方文档</a>。VS Code 不是最好的编辑器，但它是最全能的编辑器。</p>
-<h2 id="参考阅读"><a href="#参考阅读" class="headerlink" title="参考阅读"></a>参考阅读</h2><ol>
-<li><a href="https://code.visualstudio.com/docs">VS Code 官方文档</a></li>
+                <h2 id="最常用"><a href="#最常用" class="headerlink" title="最常用"></a>最常用</h2><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>常用命令</p>
+<pre class="line-numbers language-shell"><code class="language-shell">set password "123456" ex 30
+ttl password #剩余生存时间，存在但没设置返回-1
+hmset stu2 name wang age 18 gender female tel 13566778899 #批量设置
+hgetall stu2 
+lpush nums 1,2,3 #如果有多个 value 值，那么各个 value 值按从左到右的顺序依次插入到表头,列表为3,2,1
+lrange nums 0 -1 #指定区间的元素
+lpop nums #移除最左边的元素并展示，3
+sadd a b c #将一个或多个 member 元素加入到集合 key 当中，已经存在于集合的 member 元素将被忽略。
+keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>摘要: 1.3.1 对文章进行投票; 2.2使用redis实现购物车; </p>
+<p>看2,4.4,4.5,5章</p>
+<p>第8章细地说明了如何构建一个类似Twitter的社交网站,并给出了包括流API在内的整个网站后端实现。</p>
+<p>第10章 1.一般来说，使用Redis Sentinel的目的就是为了向主服务器属下的从服务器提供自动故<br>障转移服务。</p>
+<h4 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h4><ul>
+<li><a href="https://www.kancloud.cn/jiangguowu/kfjsdkfjskd/718253">Redis操作</a></li>
+<li><a href="http://www.macrozheng.com/#/reference/redis_cluster">docker-redis集群</a></li>
+<li><a href="https://github.com/jackfrued/Python-100-Days/blob/master/Day36-40/39-40.NoSQL%E5%85%A5%E9%97%A8.md#mongodb%E6%A6%82%E8%BF%B0">MongoDB概述</a></li>
+</ul>
+<h2 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>常用</p>
+<ol>
+<li>生成文件/预览/上传：<code>hexo g/s/d</code></li>
+</ol>
+<p>不常用</p>
+<ol>
+<li>新建文章：<code>hexo new post &quot;x-x&quot;</code> </li>
+<li><a href="https://hexo.io/zh-cn/docs/asset-folders">hexo官方文档地址</a></li>
+<li><a href="https://hexo.io/themes/">主题列表</a> - <a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">matery文档</a> 或 Journal</li>
+</ol>
+<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4><p>常用</p>
+<ol>
+<li>改文章特色图片：在 /source/medias/featureimages 文件夹中默认有 24 张特色图片，你可以再增加或者减少，并需要在 _config.yml 做同步修改。</li>
+</ol>
+<p>不常用</p>
+<ol>
+<li>SSH免密deploy：找到根目录下config.yml,将repository改成ssh格式即可。</li>
+<li>图片引用：图片放置于 <code>source/images</code> 文件夹中，然后通过类似于 <code>![](/images/image.jpg)</code> 的方法访问它们。</li>
+<li>改 Banner 图：搜 bg-cover-content.ejs 文件</li>
+<li>文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项</li>
 </ol>
 
             </div>
@@ -632,9 +653,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《VS Code使用记录》
+                    《私人手册》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/06/26/vs-code/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/07/16/private-manual/" property="cc:attributionName"
                rel="cc:attributionURL">
                 刘琪
             </a> 采用
@@ -675,7 +696,7 @@
         repo: 'theliuqi.github.io',
         owner: 'theliuqi',
         admin: "theliuqi",
-        id: '2020/06/26/vs-code/',
+        id: '2020/07/16/private-manual/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -962,29 +983,44 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/07/16/private-manual/">
+                <a href="/2020/07/22/other/personal-plan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/25.jpg" class="responsive-img" alt="私人手册">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="设定个人发展目标和计划">
                         
-                        <span class="card-title">私人手册</span>
+                        <span class="card-title">设定个人发展目标和计划</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            深感需要一个方便查询的私人手册，于是就有了这篇。
+                            强烈推荐
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-16
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-22
                         </span>
                         <span class="publish-author">
                             
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/生活/" class="post-category" target="_blank">
+                                    生活
+                                </a>
+                            
+                            
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/转载/" target="_blank">
+                        <span class="chip bg-color">转载</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -996,24 +1032,24 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/27/mysql-master-slave/">
+                <a href="/2020/06/26/vs-code/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="MySQL主从复制实战">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="VS Code使用记录">
                         
-                        <span class="card-title">MySQL主从复制实战</span>
+                        <span class="card-title">VS Code使用记录</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Docker环境下的后续再补充
+                            良心推荐
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-27
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-26
                             </span>
                         <span class="publish-author">
                             
@@ -1030,8 +1066,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/MySQL/" target="_blank">
-                        <span class="chip bg-color">MySQL</span>
+                    <a href="/tags/VS-Code/" target="_blank">
+                        <span class="chip bg-color">VS Code</span>
                     </a>
                     
                 </div>
@@ -1178,6 +1214,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
     <footer class="page-footer bg-color">
     <div class="container row center-align">
