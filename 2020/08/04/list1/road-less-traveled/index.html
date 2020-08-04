@@ -4,14 +4,14 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="私人手册, 刘琪 theliuqi Liuqi Python PHP">
+    <meta name="keywords" content="书评：《少有人走的路——心智成熟的旅程》, 刘琪 theliuqi Liuqi Python PHP">
     <meta name="baidu-site-verification" content="a0V0OBrZLv">
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="最常用Redis常用命令
-set password &#34;123456&#34; ex 30
-ttl password #剩余生存时间，存在但没设置返回-1
-hmset stu2 name wang age 18 gender female tel 1">
+    <meta name="description" content="偶然看到编程随想关于《少有人走的路——心智成熟的旅程》的书评，对我帮助很大。随想的书评很精彩，我本想不再写，但出于对「费曼学习法」的实践，于是有了这篇。
+内容简介下面稍微介绍一下本书的大致内容。
+第1部分：自律
+所谓自律，就是主动要求自己以">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +19,7 @@ hmset stu2 name wang age 18 gender female tel 1">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>私人手册 | 刘琪的博客</title>
+    <title>书评：《少有人走的路——心智成熟的旅程》 | 刘琪的博客</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -290,13 +290,13 @@ hmset stu2 name wang age 18 gender female tel 1">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/24.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        私人手册
+                        书评：《少有人走的路——心智成熟的旅程》
                     </div>
                 </div>
             </div>
@@ -406,11 +406,24 @@ hmset stu2 name wang age 18 gender female tel 1">
                 <div class="col s7">
                     
                     <div class="article-tag">
-                        <span class="chip bg-color">无标签</span>
+                        
+                        <a href="/tags/编程随想/" target="_blank">
+                            <span class="chip bg-color">编程随想</span>
+                        </a>
+                        
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                        <a href="/categories/生活/" class="post-category" target="_blank">
+                            生活
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -418,7 +431,7 @@ hmset stu2 name wang age 18 gender female tel 1">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-16
+                    2020-08-04
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -432,14 +445,14 @@ hmset stu2 name wang age 18 gender female tel 1">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    503
+                    1.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
                 
@@ -455,46 +468,67 @@ hmset stu2 name wang age 18 gender female tel 1">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="最常用"><a href="#最常用" class="headerlink" title="最常用"></a>最常用</h2><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>常用命令</p>
-<pre class="line-numbers language-shell"><code class="language-shell">set password "123456" ex 30
-ttl password #剩余生存时间，存在但没设置返回-1
-hmset stu2 name wang age 18 gender female tel 13566778899 #批量设置
-hgetall stu2 
-lpush nums 1,2,3 #如果有多个 value 值，那么各个 value 值按从左到右的顺序依次插入到表头,列表为3,2,1
-lrange nums 0 -1 #指定区间的元素
-lpop nums #移除最左边的元素并展示，3
-sadd a b c #将一个或多个 member 元素加入到集合 key 当中，已经存在于集合的 member 元素将被忽略。
-keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>摘要: 1.3.1 对文章进行投票; 2.2使用redis实现购物车; </p>
-<p>看2,4.4,4.5,5章</p>
-<p>第8章细地说明了如何构建一个类似Twitter的社交网站,并给出了包括流API在内的整个网站后端实现。</p>
-<p>第10章 1.一般来说，使用Redis Sentinel的目的就是为了向主服务器属下的从服务器提供自动故<br>障转移服务。</p>
-<h4 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h4><ul>
-<li><a href="https://www.kancloud.cn/jiangguowu/kfjsdkfjskd/718253">Redis操作</a></li>
-<li><a href="http://www.macrozheng.com/#/reference/redis_cluster">docker-redis集群</a></li>
-<li><a href="https://github.com/jackfrued/Python-100-Days/blob/master/Day36-40/39-40.NoSQL%E5%85%A5%E9%97%A8.md#mongodb%E6%A6%82%E8%BF%B0">MongoDB概述</a></li>
+                <p>偶然看到编程随想关于《少有人走的路——心智成熟的旅程》的<a href="https://program-think.blogspot.com/2012/06/book-review-road-less-traveled.html">书评</a>，对我帮助很大。随想的书评很精彩，我本想不再写，但出于对「费曼学习法」的实践，于是有了这篇。</p>
+<h2 id="内容简介"><a href="#内容简介" class="headerlink" title="内容简介"></a>内容简介</h2><p>下面稍微介绍一下本书的大致内容。</p>
+<h3 id="第1部分：自律"><a href="#第1部分：自律" class="headerlink" title="第1部分：自律"></a>第1部分：自律</h3><blockquote>
+<p>所谓自律，就是主动要求自己以积极的态度去承受痛苦，解决问题。</p>
+</blockquote>
+<p>我认为这是本书最重要的部分——因为建立【自律能力】，是达成心智成熟的关键。</p>
+<p>缺乏“自律”的人，会一味地逃避问题，逃避痛苦。但是这样只是掩盖问题，而不能根本解决问题。那些逃避痛苦的人，最终会招致更大的痛苦；而建立了“自律”的人，就能够正视问题，直面痛苦，以积极的态度去解决问题。</p>
+<p>那么，如何建立自律能力捏？作者指出了4个要点：</p>
+<ul>
+<li><p>推迟满足感</p>
+<blockquote>
+<p>就是不贪图暂时的安逸，先苦后甜，重新设置人生快乐与痛苦的次序：首先，面对问题并感受痛苦；然后，解决问题并享受更大的快乐。在充满问题和痛苦的人生中，推迟满足感是唯一可行的生活方式</p>
+</blockquote>
+</li>
+<li><p>承担责任、</p>
+<blockquote>
+<p>不能及时解决自己面临的问题，这些问题就会像山一样横亘在我们心中，阻碍心灵的成长和心智的成熟。很多人显然忽略了这个道理。我们必须面对属于自己的问题，这是解决问题的基本前提。</p>
+</blockquote>
+</li>
+<li><p>尊重事实</p>
+<blockquote>
+<p>逃避现实的痛苦是人类的天性，只有通过自律，我们才能逐渐克服现实的痛苦，及时修改自己的地图，逐步成长。我们必须忠于事实，尽管这会带来暂时的痛苦，但远比沉湎于虚假的舒适中要好。我们必须忍受暂时的不适感，追求事实而不是假象，并承受这一过程的痛苦。要让心灵获得成长，心智走向成熟，就要竭尽全力，不惜一切代价，完全忠于事实。</p>
+</blockquote>
+<blockquote>
+<p>完全忠于事实的生活到底意味着什么呢？首先，<strong>它意味着我们要用一生的时间进行不间断地严格地自我反省</strong>。我们通过自身与外界的接触来认识世界。我们不仅要观察世界本身，也要对观察世界的主体（我们自身）进行反省。</p>
+</blockquote>
+</li>
+<li><p>保持平衡</p>
+<blockquote>
+<p>你既要学会推迟满足感，先苦后甜，把眼光放远，同时又要尽可能过好当前的生活，让人生的快乐多于痛苦。换句话说，自律本身需要把持得当，我称之为“保持平衡”，这也是自律的第四条原则</p>
+</blockquote>
+</li>
 </ul>
-<h2 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>常用</p>
-<ol>
-<li>生成文件/预览/上传：<code>hexo g/s/d</code></li>
-</ol>
-<p>不常用</p>
-<ol>
-<li>新建文章：<code>hexo new post &quot;x-x&quot;</code> </li>
-<li><a href="https://hexo.io/zh-cn/docs/asset-folders">hexo官方文档地址</a></li>
-<li><a href="https://hexo.io/themes/">主题列表</a> - <a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">matery文档</a> 或 Journal</li>
-</ol>
-<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4><p>常用</p>
-<ol>
-<li>改文章特色图片：在 /source/medias/featureimages 文件夹中默认有 24 张特色图片，你可以再增加或者减少，并需要在 _config.yml 做同步修改。</li>
-</ol>
-<p>不常用</p>
-<ol>
-<li>SSH免密deploy：找到根目录下config.yml,将repository改成ssh格式即可。</li>
-<li>图片引用：图片放置于 <code>source/images</code> 文件夹中，然后通过类似于 <code>![](/images/image.jpg)</code> 的方法访问它们。</li>
-<li>改 Banner 图：搜 bg-cover-content.ejs 文件</li>
-<li>文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项</li>
-</ol>
+<h3 id="第2部分：爱"><a href="#第2部分：爱" class="headerlink" title="第2部分：爱"></a>第2部分：爱</h3><blockquote>
+<p>爱，是为了促进自己和他人心智成熟，而不断拓展自我界限，实现自我完善的一种意愿。</p>
+</blockquote>
+<p>本书的第二部分，重点谈“爱”这个话题。（请注意，书中谈及的“爱”，是广义的。不要一看到这个字眼，就想到“性爱”）</p>
+<p>“爱”这个词汇，虽然人人都听说过，但是很多人（包括成年人）对“爱”的含义有片面的理解甚至错误的理解。</p>
+<p>举个“中国式父母”的例子：</p>
+<ul>
+<li>孩子5岁，我给你报了少年宫</li>
+<li>孩子7岁，我给你报了奥数班</li>
+<li>孩子15岁，我给你报了重点中学</li>
+<li>孩子18岁，我给你报了高考突击班</li>
+<li>孩子23岁，我给你报了公务员</li>
+<li>孩子32岁，我给你报了《非诚勿扰》</li>
+<li>……</li>
+</ul>
+<p>如果你问这类父母这么做的动机，他们多半会说：因为他们【爱】自己的孩子。</p>
+<p>但其实捏，这些父母的上述举动，并不是源于真正的“爱”，而是源于【控制欲】——他们希望掌控孩子的成长轨迹。“爱”只不过是这类父母冠冕堂皇的借口而已。</p>
+<p>那么，到底什么是真正的爱？请看书。</p>
+<h3 id="第3部分：成长与宗教"><a href="#第3部分：成长与宗教" class="headerlink" title="第3部分：成长与宗教"></a>第3部分：成长与宗教</h3><p>谈到科学和宗教的关系，作者的如下几个观点，列出来供大伙儿参考：</p>
+<blockquote>
+<p>科学家成熟的标志之一就是能意识到，和其它任何宗教一样，科学也可能流于教条主义。我坚定地认为，对于别人教给我们的一切，包括通常的文化观念以及一切陈规旧习，采取冷静和怀疑的态度，才是使心智成熟不可或缺的元素。科学本身也很容易成为文化偶像，我们亦应保持怀疑的态度。</p>
+</blockquote>
+<blockquote>
+<p>我们的思想可能很成熟，成熟到足以摆脱对上帝的信仰；与此同时，我们也可能成熟到去信仰上帝。</p>
+</blockquote>
+<h3 id="第4部分：神奇的力量"><a href="#第4部分：神奇的力量" class="headerlink" title="第4部分：神奇的力量"></a>第4部分：神奇的力量</h3><p>前面三部分提到的心智，都是“意识”层面的。最后这部分会讲到“潜意识”的问题以及“潜意识”和“意识”之间的互动。接着作者还谈到了两种力量（心灵的力量和政治的力量）。心灵的力量用于控制自己，政治的力量用于控制他人。</p>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>为了免去大伙儿买纸版书的开销和找电子书的麻烦，我特地放上此书的 EPUB 版。想下载的同学，请访问我分享的<a href="http://dwz.date/bPkw">电子书资源</a>的 list1 文件夹”。</p>
+<p>看完之后，如果有啥心得体会，可以到本文留言。</p>
 
             </div>
             <hr />
@@ -653,9 +687,9 @@ keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><sp
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《私人手册》
+                    《书评：《少有人走的路——心智成熟的旅程》》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/07/16/private-manual/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/08/04/list1/road-less-traveled/" property="cc:attributionName"
                rel="cc:attributionURL">
                 刘琪
             </a> 采用
@@ -696,7 +730,7 @@ keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><sp
         repo: 'theliuqi.github.io',
         owner: 'theliuqi',
         admin: "theliuqi",
-        id: '2020/07/16/private-manual/',
+        id: '2020/08/04/list1/road-less-traveled/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -979,29 +1013,30 @@ keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><sp
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/07/22/list1/personal-plan/">
+                <a href="/2020/08/04/list1/road-less-traveled/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="设定个人发展目标和计划">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="书评：《少有人走的路——心智成熟的旅程》">
                         
-                        <span class="card-title">设定个人发展目标和计划</span>
+                        <span class="card-title">书评：《少有人走的路——心智成熟的旅程》</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            强烈推荐
+                             解决人生问题的关键在于自律
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-22
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-08-04
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1014,6 +1049,7 @@ keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><sp
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1032,31 +1068,31 @@ keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><sp
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/26/vs-code/">
+                <a href="/2020/07/22/list1/personal-plan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="VS Code使用记录">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="设定个人发展目标和计划">
                         
-                        <span class="card-title">VS Code使用记录</span>
+                        <span class="card-title">设定个人发展目标和计划</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            良心推荐
+                            强烈推荐
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-06-26
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-07-22
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/技术/" class="post-category" target="_blank">
-                                    技术
+                            <a href="/categories/生活/" class="post-category" target="_blank">
+                                    生活
                                 </a>
                             
                             
@@ -1066,8 +1102,8 @@ keys * #查看所有数据<span aria-hidden="true" class="line-numbers-rows"><sp
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/VS-Code/" target="_blank">
-                        <span class="chip bg-color">VS Code</span>
+                    <a href="/tags/编程随想/" target="_blank">
+                        <span class="chip bg-color">编程随想</span>
                     </a>
                     
                 </div>
