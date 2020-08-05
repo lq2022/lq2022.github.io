@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-04T15:49:59.135Z</updated>
+  <updated>2020-08-05T03:39:35.668Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式</title>
+    <link href="https://theliuqi.top/2020/08/05/list1/design-patterns/"/>
+    <id>https://theliuqi.top/2020/08/05/list1/design-patterns/</id>
+    <published>2020-08-05T02:08:21.000Z</published>
+    <updated>2020-08-05T03:39:35.668Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。使用设计模式是为了重用代码、让代码更容易被他人理解、保证代码可靠性。&lt;/p&gt;
+&lt;h2 id=&quot;设计模式的类型&quot;&gt;&lt;a href=&quot;#设计模式的类型&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="design patterns" scheme="https://theliuqi.top/tags/design-patterns/"/>
+    
+  </entry>
   
   <entry>
     <title>书评：《少有人走的路——心智成熟的旅程》</title>
