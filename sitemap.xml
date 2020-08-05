@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://theliuqi.top/2020/07/16/tech-manual/</loc>
+    
+    <lastmod>2020-08-05T09:17:44.725Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://theliuqi.top/2020/08/05/list1/redis/</loc>
     
     <lastmod>2020-08-05T07:45:10.761Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://theliuqi.top/2020/07/22/list1/personal-plan/</loc>
     
     <lastmod>2020-07-31T00:02:04.045Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/2020/07/16/private-manual/</loc>
-    
-    <lastmod>2020-07-22T00:38:47.251Z</lastmod>
     
   </url>
   
