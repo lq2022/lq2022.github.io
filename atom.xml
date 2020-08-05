@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-05T07:44:49.296Z</updated>
+  <updated>2020-08-05T07:45:10.761Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Redis</title>
+    <link href="https://theliuqi.top/2020/08/05/list1/redis/"/>
+    <id>https://theliuqi.top/2020/08/05/list1/redis/</id>
+    <published>2020-08-05T02:08:21.000Z</published>
+    <updated>2020-08-05T07:45:10.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="database" scheme="https://theliuqi.top/tags/database/"/>
+    
+  </entry>
   
   <entry>
     <title>设计模式</title>
@@ -41,33 +68,6 @@
     
     
       <category term="design patterns" scheme="https://theliuqi.top/tags/design-patterns/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Redis</title>
-    <link href="https://theliuqi.top/2020/08/05/list1/redis/"/>
-    <id>https://theliuqi.top/2020/08/05/list1/redis/</id>
-    <published>2020-08-05T02:08:21.000Z</published>
-    <updated>2020-08-05T07:45:10.761Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="database" scheme="https://theliuqi.top/tags/database/"/>
     
   </entry>
   
@@ -131,7 +131,7 @@
     <link href="https://theliuqi.top/2020/07/16/tech-manual/"/>
     <id>https://theliuqi.top/2020/07/16/tech-manual/</id>
     <published>2020-07-16T09:08:21.000Z</published>
-    <updated>2020-08-05T09:17:44.725Z</updated>
+    <updated>2020-08-05T09:20:54.572Z</updated>
     
     <summary type="html">
     
