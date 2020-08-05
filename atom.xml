@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-05T03:39:35.668Z</updated>
+  <updated>2020-08-05T03:43:00.769Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://theliuqi.top/2020/08/05/list1/design-patterns/"/>
     <id>https://theliuqi.top/2020/08/05/list1/design-patterns/</id>
     <published>2020-08-05T02:08:21.000Z</published>
-    <updated>2020-08-05T03:39:35.668Z</updated>
+    <updated>2020-08-05T03:43:00.769Z</updated>
     
     <summary type="html">
     
@@ -41,6 +41,25 @@
     
     
       <category term="design patterns" scheme="https://theliuqi.top/tags/design-patterns/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis</title>
+    <link href="https://theliuqi.top/2020/08/05/list1/redis/"/>
+    <id>https://theliuqi.top/2020/08/05/list1/redis/</id>
+    <published>2020-08-05T02:08:21.000Z</published>
+    <updated>2020-08-05T05:21:03.125Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="database" scheme="https://theliuqi.top/tags/database/"/>
     
   </entry>
   
