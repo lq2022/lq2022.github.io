@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-05T07:45:10.761Z</updated>
+  <updated>2020-08-12T01:47:39.597Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Redis</title>
-    <link href="https://theliuqi.top/2020/08/05/list1/redis/"/>
-    <id>https://theliuqi.top/2020/08/05/list1/redis/</id>
-    <published>2020-08-05T02:08:21.000Z</published>
-    <updated>2020-08-05T07:45:10.761Z</updated>
+    <title>程序员简历模板</title>
+    <link href="https://theliuqi.top/2020/08/11/list1/how-to-write-resume/"/>
+    <id>https://theliuqi.top/2020/08/11/list1/how-to-write-resume/</id>
+    <published>2020-08-11T07:08:21.000Z</published>
+    <updated>2020-08-12T01:47:39.597Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,9 @@
       
         
         
-          &lt;h2 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;使用说明&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将联系方式以下内容复制到&lt;a
         
       
     
@@ -39,7 +41,35 @@
       <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="database" scheme="https://theliuqi.top/tags/database/"/>
+      <category term="简历" scheme="https://theliuqi.top/tags/%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《如何阅读一本书》——书评及内容纲要</title>
+    <link href="https://theliuqi.top/2020/08/05/list1/how-to-read-book/"/>
+    <id>https://theliuqi.top/2020/08/05/list1/how-to-read-book/</id>
+    <published>2020-08-05T14:08:21.000Z</published>
+    <updated>2020-08-05T15:59:33.245Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;此文部分参考编程随想的&lt;a href=&quot;https://program-think.blogspot.com/2013/04/how-to-read-book.html#head-5&quot;&gt;书评&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;阅读的层次&quot;&gt;&lt;a href=&quot;#阅读的层次&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="book" scheme="https://theliuqi.top/tags/book/"/>
     
   </entry>
   
@@ -131,7 +161,7 @@
     <link href="https://theliuqi.top/2020/07/16/tech-manual/"/>
     <id>https://theliuqi.top/2020/07/16/tech-manual/</id>
     <published>2020-07-16T09:08:21.000Z</published>
-    <updated>2020-08-05T09:20:54.572Z</updated>
+    <updated>2020-08-05T09:40:34.545Z</updated>
     
     <summary type="html">
     
