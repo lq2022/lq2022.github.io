@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-17T00:45:16.922Z</updated>
+  <updated>2020-09-02T15:29:26.284Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>xx</title>
-    <link href="https://theliuqi.top/2020/08/12/list1/uni-app/"/>
-    <id>https://theliuqi.top/2020/08/12/list1/uni-app/</id>
-    <published>2020-08-12T07:08:21.000Z</published>
-    <updated>2020-08-17T00:45:16.922Z</updated>
+    <title>Hexo笔记</title>
+    <link href="https://theliuqi.top/2020/09/02/list1/hexo/"/>
+    <id>https://theliuqi.top/2020/09/02/list1/hexo/</id>
+    <published>2020-09-02T15:08:21.000Z</published>
+    <updated>2020-09-02T15:29:26.284Z</updated>
     
     <summary type="html">
     
@@ -29,17 +29,15 @@
       
         
         
-          &lt;h2 id=&quot;uni-app开发记录&quot;&gt;&lt;a href=&quot;#uni-app开发记录&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;默认&quot;&gt;&lt;a href=&quot;#默认&quot; class=&quot;headerlink&quot; title=&quot;默认&quot;&gt;&lt;/a&gt;默认&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;hexo g #g/s/d分别代表生成文件/预览/上传；&lt;/li&gt;
+&lt;li&gt;&lt;a
         
       
     
     </summary>
     
     
-      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="前端" scheme="https://theliuqi.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -160,7 +158,7 @@
     <link href="https://theliuqi.top/2020/07/22/list1/personal-plan/"/>
     <id>https://theliuqi.top/2020/07/22/list1/personal-plan/</id>
     <published>2020-07-22T00:08:21.000Z</published>
-    <updated>2020-07-31T00:02:04.045Z</updated>
+    <updated>2020-08-25T07:31:09.844Z</updated>
     
     <summary type="html">
     
@@ -188,7 +186,7 @@
     <link href="https://theliuqi.top/2020/07/16/tech-manual/"/>
     <id>https://theliuqi.top/2020/07/16/tech-manual/</id>
     <published>2020-07-16T09:08:21.000Z</published>
-    <updated>2020-08-05T09:40:34.545Z</updated>
+    <updated>2020-09-02T15:24:25.472Z</updated>
     
     <summary type="html">
     
@@ -239,7 +237,7 @@
     <link href="https://theliuqi.top/2020/05/27/mysql-master-slave/"/>
     <id>https://theliuqi.top/2020/05/27/mysql-master-slave/</id>
     <published>2020-05-27T03:46:09.000Z</published>
-    <updated>2020-06-26T14:27:38.560Z</updated>
+    <updated>2020-08-25T07:33:29.446Z</updated>
     
     <summary type="html">
     
