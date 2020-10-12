@@ -1,10 +1,8 @@
-https://theliuqi.top/2020/09/02/list1/hexo/
 https://theliuqi.top/2020/08/11/list1/how-to-write-resume/
 https://theliuqi.top/2020/08/05/list1/how-to-read-book/
 https://theliuqi.top/2020/08/05/list1/design-patterns/
 https://theliuqi.top/2020/08/04/list1/road-less-traveled/
 https://theliuqi.top/2020/07/22/list1/personal-plan/
-https://theliuqi.top/2020/07/16/tech-manual/
 https://theliuqi.top/2020/06/26/vs-code/
 https://theliuqi.top/2020/05/27/mysql-master-slave/
 https://theliuqi.top/2020/05/06/document-style-guide/

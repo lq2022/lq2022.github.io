@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-09-02T15:29:26.284Z</updated>
+  <updated>2020-08-12T02:03:34.597Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hexo笔记</title>
-    <link href="https://theliuqi.top/2020/09/02/list1/hexo/"/>
-    <id>https://theliuqi.top/2020/09/02/list1/hexo/</id>
-    <published>2020-09-02T15:08:21.000Z</published>
-    <updated>2020-09-02T15:29:26.284Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;默认&quot;&gt;&lt;a href=&quot;#默认&quot; class=&quot;headerlink&quot; title=&quot;默认&quot;&gt;&lt;/a&gt;默认&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;hexo g #g/s/d分别代表生成文件/预览/上传；&lt;/li&gt;
-&lt;li&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>程序员简历模板</title>
@@ -103,7 +78,7 @@
     <link href="https://theliuqi.top/2020/08/05/list1/design-patterns/"/>
     <id>https://theliuqi.top/2020/08/05/list1/design-patterns/</id>
     <published>2020-08-05T02:08:21.000Z</published>
-    <updated>2020-08-05T07:44:49.296Z</updated>
+    <updated>2020-10-12T02:26:10.197Z</updated>
     
     <summary type="html">
     
@@ -158,7 +133,7 @@
     <link href="https://theliuqi.top/2020/07/22/list1/personal-plan/"/>
     <id>https://theliuqi.top/2020/07/22/list1/personal-plan/</id>
     <published>2020-07-22T00:08:21.000Z</published>
-    <updated>2020-08-25T07:31:09.844Z</updated>
+    <updated>2020-10-12T02:19:49.066Z</updated>
     
     <summary type="html">
     
@@ -178,29 +153,6 @@
     
     
       <category term="编程随想" scheme="https://theliuqi.top/tags/%E7%BC%96%E7%A8%8B%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>公开技术手册</title>
-    <link href="https://theliuqi.top/2020/07/16/tech-manual/"/>
-    <id>https://theliuqi.top/2020/07/16/tech-manual/</id>
-    <published>2020-07-16T09:08:21.000Z</published>
-    <updated>2020-09-02T15:24:25.472Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;本手册的灵感来自&lt;a
-        
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
