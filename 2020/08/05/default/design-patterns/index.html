@@ -4,17 +4,12 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="中文技术文档的写作规范, 刘琪 theliuqi Liuqi Python PHP">
+    <meta name="keywords" content="设计模式, 刘琪 theliuqi Liuqi Python PHP">
     <meta name="baidu-site-verification" content="a0V0OBrZLv">
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="标题
-层级: 标题分为四级; 一级标题：文章的标题; 二级标题：文章主要部分的大标题.
-避免同级标题只有一个
-如果三级标题下有并列性的内容，建议只使用项目列表（Item list）. 如（1）xx
-
-文本
-示例: 一部容量为 16 GB 的">
+    <meta name="description" content="设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。使用设计模式是为了重用代码、让代码更容易被他人理解、保证代码可靠性。
+设计模式的类型根据设计模式的参考书 Design Patterns - Elements o">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>中文技术文档的写作规范 | 刘琪的博客</title>
+    <title>设计模式 | 刘琪的博客</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -297,13 +292,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        中文技术文档的写作规范
+                        设计模式
                     </div>
                 </div>
             </div>
@@ -414,8 +409,8 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Document-Style/" target="_blank">
-                            <span class="chip bg-color">Document-Style</span>
+                        <a href="/tags/design-patterns/" target="_blank">
+                            <span class="chip bg-color">design patterns</span>
                         </a>
                         
                     </div>
@@ -438,7 +433,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-06
+                    2020-08-05
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -452,14 +447,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    535
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
                 
@@ -475,42 +470,55 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><ul>
-<li>层级: 标题分为四级; 一级标题：文章的标题; 二级标题：文章主要部分的大标题.</li>
-<li>避免同级标题只有一个</li>
-<li>如果三级标题下有并列性的内容，建议只使用项目列表（Item list）. 如<strong>（1）xx</strong></li>
+                <p>设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。使用设计模式是为了重用代码、让代码更容易被他人理解、保证代码可靠性。</p>
+<h2 id="设计模式的类型"><a href="#设计模式的类型" class="headerlink" title="设计模式的类型"></a>设计模式的类型</h2><p>根据设计模式的参考书 Design Patterns - Elements of Reusable Object-Oriented Software（中文译名：设计模式 - 可复用的面向对象软件元素） 中所提到的，总共有 23 种设计模式。这些模式可以分为三大类：创建型模式（Creational Patterns）、结构型模式（Structural Patterns）、行为型模式（Behavioral Patterns）。下面我主要列举分析较常用的设计模式。</p>
+<h3 id="创建型模式"><a href="#创建型模式" class="headerlink" title="创建型模式"></a>创建型模式</h3><p>创建型模式(Creational Pattern)对类的实例化过程进行了抽象，能够将软件模块中对象的创建和对象的使用分离。为了使软件的结构更加清晰，外界对于这些对象只需要知道它们共同的接口，而不清楚其具体的实现细节，使整个系统的设计更加符合单一职责原则。</p>
+<p>创建型模式在创建什么(What)，由谁创建(Who)，何时创建(When)等方面都为软件设计者提供了尽可能大的灵活性。创建型模式隐藏了类的实例的创建细节，通过隐藏对象如何被创建和组合在一起达到使整个系统独立的目的。</p>
+<p>包含模式</p>
+<ul>
+<li>简单工厂模式（Simple Factory）<br>重要程度：4 （5为满分）</li>
+<li>工厂方法模式（Factory Method）<br>重要程度：5</li>
+<li>抽象工厂模式（Abstract Factory）<br>重要程度：5</li>
+<li>建造者模式（Builder）<br>重要程度：2</li>
+<li>原型模式（Prototype）<br>重要程度：3</li>
+<li>单例模式（Singleton）<br>重要程度：4</li>
 </ul>
-<h2 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h2><ul>
-<li>示例: 一部容量为 16 GB 的智能手机</li>
-<li>避免使用长句: 不包含任何标点符号的单个句子，长度尽量保持在 20 个字以内</li>
-<li>外文缩写可以使用半角圆点(<code>.</code>)表示缩写,如: U.S.A.</li>
-<li>表示中文时，英文省略号（<code>⋯</code>）应改为中文省略号（<code>……</code>）</li>
-<li>英文书名或电影名改用中文表达时，双引号应改为书名号。</li>
-<li>专有名词中每个词第一个字母均应大写，非专有名词则不需要大写。如: “American Association of Physicists in Medicine”</li>
+<h3 id="结构型模式"><a href="#结构型模式" class="headerlink" title="结构型模式"></a>结构型模式</h3><p>结构型模式(Structural Pattern)描述如何将类或者对 象结合在一起形成更大的结构，就像搭积木，可以通过 简单积木的组合形成复杂的、功能更为强大的结构。</p>
+<p>结构型模式可以分为类结构型模式和对象结构型模式：</p>
+<p>类结构型模式关心类的组合，由多个类可以组合成一个更大的系统，在类结构型模式中一般只存在继承关系和实现关系。 - 对象结构型模式关心类与对象的组合，通过关联关系使得在一 个类中定义另一个类的实例对象，然后通过该对象调用其方法。 根据“合成复用原则”，在系统中尽量使用关联关系来替代继 承关系，因此大部分结构型模式都是对象结构型模式。</p>
+<p>包含模式</p>
+<ul>
+<li>适配器模式(Adapter)<br>重要程度：4</li>
+<li>桥接模式(Bridge)<br>重要程度：3</li>
+<li>组合模式(Composite)<br>重要程度：4</li>
+<li>装饰模式(Decorator)<br>重要程度：3</li>
+<li>外观模式(Facade)<br>重要程度：5</li>
+<li>享元模式(Flyweight)<br>重要程度：1</li>
+<li>代理模式(Proxy)<br>重要程度：4</li>
 </ul>
-<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><ul>
-<li>段落的中心句子放在段首，对全段内容进行概述。后面陈述的句子为核心句服务。</li>
-<li>段落开头不要留出空白字符。</li>
-<li>如果是全篇转载，请在全文开头显著位置注明出处，并链接至原文。</li>
+<h3 id="行为型模式"><a href="#行为型模式" class="headerlink" title="行为型模式"></a>行为型模式</h3><p>行为型模式(Behavioral Pattern)是对在不同的对象之间划分责任和算法的抽象化。</p>
+<p>行为型模式不仅仅关注类和对象的结构，而且重点关注它们之间的相互作用。</p>
+<p>通过行为型模式，可以更加清晰地划分类与对象的职责，并研究系统在运行时实例对象 之间的交互。在系统运行时，对象并不是孤立的，它们可以通过相互通信与协作完成某些复杂功能，一个对象在运行时也将影响到其他对象的运行。</p>
+<p>行为型模式分为类行为型模式和对象行为型模式两种：</p>
+<p>类行为型模式：类的行为型模式使用继承关系在几个类之间分配行为，类行为型模式主要通过多态等方式来分配父类与子类的职责。<br>对象行为型模式：对象的行为型模式则使用对象的聚合关联关系来分配行为，对象行为型模式主要是通过对象关联等方式来分配两个或多个类的职责。根据“合成复用原则”，系统中要尽量使用关联关系来取代继承关系，因此大部分行为型设计模式都属于对象行为型设计模式。</p>
+<p>包含模式</p>
+<ul>
+<li>职责链模式(Chain of Responsibility) 重要程度：3</li>
+<li>命令模式(Command)<br>重要程度：4</li>
+<li>解释器模式(Interpreter)<br>重要程度：1</li>
+<li>迭代器模式(Iterator)<br>重要程度：5</li>
+<li>中介者模式(Mediator)<br>重要程度：2</li>
+<li>备忘录模式(Memento)<br>重要程度：2</li>
+<li>观察者模式(Observer)<br>重要程度：5</li>
+<li>状态模式(State)<br>重要程度：3</li>
+<li>策略模式(Strategy)<br>重要程度：4</li>
+<li>模板方法模式(Template Method)<br>重要程度：3</li>
+<li>访问者模式(Visitor)<br>重要程度：1</li>
 </ul>
-<h2 id="数值"><a href="#数值" class="headerlink" title="数值"></a>数值</h2><ul>
-<li>数值为千位以上，应添加千分号, 如: 公司的实收资本为 ￥1,258,000 人民币</li>
+<h2 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h2><ul>
+<li><a href="https://www.runoob.com/design-pattern/design-pattern-intro.html">菜鸟设计模式</a></li>
+<li><a href="https://design-patterns.readthedocs.io/zh_CN/latest/index.html">图说设计模式</a></li>
 </ul>
-<h2 id="标点符号"><a href="#标点符号" class="headerlink" title="标点符号"></a>标点符号</h2><ul>
-<li>英文句子中，并列词语之间使用半角逗号（<code>,</code>）分隔, 不使用逗号.</li>
-<li>中文句子内部的并列词，最后一个尽量使用（<code>和</code>）来连接. 如: 我最欣赏的科技公司有 Google、Facebook、腾讯、阿里和百度等。</li>
-<li>分号（<code>；</code>）表示复句内部并列分句之间的停顿。</li>
-<li>引号里面还要用引号时，外面一层用双引号，里面一层用单引号（<code>‘ ’</code>）</li>
-<li>补充说明时，使用全角圆括号（）</li>
-<li>应该使用平静的语气叙述，尽量避免使用感叹号（<code>！</code>）</li>
-<li>数值范围（例如日期、时间或数字）应该使用波浪连接号（<code>～</code>）</li>
-</ul>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
-<li>文件名建议只使用小写字母，不使用大写字母。如: reading-list.md</li>
-</ul>
-<blockquote>
-<p>本文部分参考自阮一峰的<a href="https://github.com/ruanyf/document-style-guide">中文技术文档的写作规范</a> </p>
-</blockquote>
 
             </div>
             <hr />
@@ -669,9 +677,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《中文技术文档的写作规范》
+                    《设计模式》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/05/06/document-style-guide/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/08/05/default/design-patterns/" property="cc:attributionName"
                rel="cc:attributionURL">
                 刘琪
             </a> 采用
@@ -711,9 +719,9 @@
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'https://theliuqi.top/2020/05/06/document-style-guide/';
-        this.page.identifier = '/2020/05/06/document-style-guide/';
-        this.page.title = '中文技术文档的写作规范';
+        this.page.url = 'https://theliuqi.top/2020/08/05/default/design-patterns/';
+        this.page.identifier = '/2020/08/05/default/design-patterns/';
+        this.page.title = '设计模式';
     };
     let disqus_shortname = 'theliuqi';
 
@@ -1002,24 +1010,24 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/27/mysql-master-slave/">
+                <a href="/2020/08/05/default/how-to-read-book/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="MySQL主从复制实战">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="《如何阅读一本书》——书评及内容纲要">
                         
-                        <span class="card-title">MySQL主从复制实战</span>
+                        <span class="card-title">《如何阅读一本书》——书评及内容纲要</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Docker环境下的后续再补充
+                            对我帮助很大
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-27
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-08-05
                         </span>
                         <span class="publish-author">
                             
@@ -1036,8 +1044,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/MySQL/" target="_blank">
-                        <span class="chip bg-color">MySQL</span>
+                    <a href="/tags/读书/" target="_blank">
+                        <span class="chip bg-color">读书</span>
                     </a>
                     
                 </div>
@@ -1051,31 +1059,31 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/05/docker-commands/">
+                <a href="/2020/08/04/default/road-less-traveled/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="开发者必备Docker命令">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="书评：《少有人走的路——心智成熟的旅程》">
                         
-                        <span class="card-title">开发者必备Docker命令</span>
+                        <span class="card-title">书评：《少有人走的路——心智成熟的旅程》</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Docker入门看这篇教程就足够了
+                             解决人生问题的关键在于自律
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-05-05
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-08-04
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/技术/" class="post-category" target="_blank">
-                                    技术
+                            <a href="/categories/生活/" class="post-category" target="_blank">
+                                    生活
                                 </a>
                             
                             
@@ -1085,8 +1093,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Docker/" target="_blank">
-                        <span class="chip bg-color">Docker</span>
+                    <a href="/tags/编程随想/" target="_blank">
+                        <span class="chip bg-color">编程随想</span>
                     </a>
                     
                 </div>
@@ -1233,6 +1241,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
     <footer class="page-footer bg-color">
     <div class="container row center-align">

@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://theliuqi.top/2020/08/05/list1/design-patterns/</loc>
+    <loc>https://theliuqi.top/2020/08/05/default/design-patterns/</loc>
     
     <lastmod>2020-10-12T02:26:10.197Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://theliuqi.top/2020/07/22/list1/personal-plan/</loc>
+    <loc>https://theliuqi.top/2020/07/22/default/personal-plan/</loc>
     
     <lastmod>2020-10-12T02:19:49.066Z</lastmod>
     
@@ -23,21 +23,14 @@
   </url>
   
   <url>
-    <loc>https://theliuqi.top/2020/08/05/list1/how-to-read-book/</loc>
+    <loc>https://theliuqi.top/2020/08/05/default/how-to-read-book/</loc>
     
     <lastmod>2020-08-14T06:34:02.771Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://theliuqi.top/2020/08/11/list1/how-to-write-resume/</loc>
-    
-    <lastmod>2020-08-12T02:03:34.597Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/2020/08/04/list1/road-less-traveled/</loc>
+    <loc>https://theliuqi.top/2020/08/04/default/road-less-traveled/</loc>
     
     <lastmod>2020-08-04T15:49:59.135Z</lastmod>
     
@@ -47,13 +40,6 @@
     <loc>https://theliuqi.top/about/index.html</loc>
     
     <lastmod>2020-07-16T10:00:49.536Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://theliuqi.top/2020/04/27/git/</loc>
-    
-    <lastmod>2020-07-16T09:05:32.159Z</lastmod>
     
   </url>
   
@@ -79,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://theliuqi.top/2020/04/21/list1/container-with-most-water/</loc>
+    <loc>https://theliuqi.top/2020/04/21/default/container-with-most-water/</loc>
     
     <lastmod>2020-06-22T14:47:25.771Z</lastmod>
     

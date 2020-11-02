@@ -1,12 +1,10 @@
-https://theliuqi.top/2020/08/11/list1/how-to-write-resume/
-https://theliuqi.top/2020/08/05/list1/how-to-read-book/
-https://theliuqi.top/2020/08/05/list1/design-patterns/
-https://theliuqi.top/2020/08/04/list1/road-less-traveled/
-https://theliuqi.top/2020/07/22/list1/personal-plan/
+https://theliuqi.top/2020/08/05/default/how-to-read-book/
+https://theliuqi.top/2020/08/05/default/design-patterns/
+https://theliuqi.top/2020/08/04/default/road-less-traveled/
+https://theliuqi.top/2020/07/22/default/personal-plan/
 https://theliuqi.top/2020/06/26/vs-code/
 https://theliuqi.top/2020/05/27/mysql-master-slave/
 https://theliuqi.top/2020/05/06/document-style-guide/
 https://theliuqi.top/2020/05/05/docker-commands/
-https://theliuqi.top/2020/04/27/git/
-https://theliuqi.top/2020/04/21/list1/container-with-most-water/
+https://theliuqi.top/2020/04/21/default/container-with-most-water/
 https://theliuqi.top/2019/05/02/linux-commands/

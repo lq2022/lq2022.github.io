@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-12T02:03:34.597Z</updated>
+  <updated>2020-08-14T06:34:02.771Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,38 +17,9 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>程序员简历模板</title>
-    <link href="https://theliuqi.top/2020/08/11/list1/how-to-write-resume/"/>
-    <id>https://theliuqi.top/2020/08/11/list1/how-to-write-resume/</id>
-    <published>2020-08-11T07:08:21.000Z</published>
-    <updated>2020-08-12T02:03:34.597Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;使用说明&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;将联系方式以下内容复制到&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="简历" scheme="https://theliuqi.top/tags/%E7%AE%80%E5%8E%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>《如何阅读一本书》——书评及内容纲要</title>
-    <link href="https://theliuqi.top/2020/08/05/list1/how-to-read-book/"/>
-    <id>https://theliuqi.top/2020/08/05/list1/how-to-read-book/</id>
+    <link href="https://theliuqi.top/2020/08/05/default/how-to-read-book/"/>
+    <id>https://theliuqi.top/2020/08/05/default/how-to-read-book/</id>
     <published>2020-08-05T14:08:21.000Z</published>
     <updated>2020-08-14T06:34:02.771Z</updated>
     
@@ -75,8 +46,8 @@
   
   <entry>
     <title>设计模式</title>
-    <link href="https://theliuqi.top/2020/08/05/list1/design-patterns/"/>
-    <id>https://theliuqi.top/2020/08/05/list1/design-patterns/</id>
+    <link href="https://theliuqi.top/2020/08/05/default/design-patterns/"/>
+    <id>https://theliuqi.top/2020/08/05/default/design-patterns/</id>
     <published>2020-08-05T02:08:21.000Z</published>
     <updated>2020-10-12T02:26:10.197Z</updated>
     
@@ -103,8 +74,8 @@
   
   <entry>
     <title>书评：《少有人走的路——心智成熟的旅程》</title>
-    <link href="https://theliuqi.top/2020/08/04/list1/road-less-traveled/"/>
-    <id>https://theliuqi.top/2020/08/04/list1/road-less-traveled/</id>
+    <link href="https://theliuqi.top/2020/08/04/default/road-less-traveled/"/>
+    <id>https://theliuqi.top/2020/08/04/default/road-less-traveled/</id>
     <published>2020-08-04T12:08:21.000Z</published>
     <updated>2020-08-04T15:49:59.135Z</updated>
     
@@ -130,8 +101,8 @@
   
   <entry>
     <title>设定个人发展目标和计划</title>
-    <link href="https://theliuqi.top/2020/07/22/list1/personal-plan/"/>
-    <id>https://theliuqi.top/2020/07/22/list1/personal-plan/</id>
+    <link href="https://theliuqi.top/2020/07/22/default/personal-plan/"/>
+    <id>https://theliuqi.top/2020/07/22/default/personal-plan/</id>
     <published>2020-07-22T00:08:21.000Z</published>
     <updated>2020-10-12T02:19:49.066Z</updated>
     
@@ -267,36 +238,9 @@
   </entry>
   
   <entry>
-    <title>Git入门</title>
-    <link href="https://theliuqi.top/2020/04/27/git/"/>
-    <id>https://theliuqi.top/2020/04/27/git/</id>
-    <published>2020-04-27T14:34:09.000Z</published>
-    <updated>2020-07-16T09:05:32.159Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Git" scheme="https://theliuqi.top/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>盛最多水的容器</title>
-    <link href="https://theliuqi.top/2020/04/21/list1/container-with-most-water/"/>
-    <id>https://theliuqi.top/2020/04/21/list1/container-with-most-water/</id>
+    <link href="https://theliuqi.top/2020/04/21/default/container-with-most-water/"/>
+    <id>https://theliuqi.top/2020/04/21/default/container-with-most-water/</id>
     <published>2020-04-21T01:47:09.000Z</published>
     <updated>2020-06-22T14:47:25.771Z</updated>
     

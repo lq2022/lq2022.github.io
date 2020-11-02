@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://theliuqi.top/2020/08/05/list1/design-patterns/</loc>
+    <loc>https://theliuqi.top/2020/08/05/default/design-patterns/</loc>
     <lastmod>2020-10-12</lastmod>
   </url>  <url>
-    <loc>https://theliuqi.top/2020/07/22/list1/personal-plan/</loc>
+    <loc>https://theliuqi.top/2020/07/22/default/personal-plan/</loc>
     <lastmod>2020-10-12</lastmod>
   </url>  <url>
     <loc>https://theliuqi.top/2020/05/27/mysql-master-slave/</loc>
     <lastmod>2020-08-25</lastmod>
   </url>  <url>
-    <loc>https://theliuqi.top/2020/08/05/list1/how-to-read-book/</loc>
+    <loc>https://theliuqi.top/2020/08/05/default/how-to-read-book/</loc>
     <lastmod>2020-08-14</lastmod>
   </url>  <url>
-    <loc>https://theliuqi.top/2020/08/11/list1/how-to-write-resume/</loc>
-    <lastmod>2020-08-12</lastmod>
-  </url>  <url>
-    <loc>https://theliuqi.top/2020/08/04/list1/road-less-traveled/</loc>
+    <loc>https://theliuqi.top/2020/08/04/default/road-less-traveled/</loc>
     <lastmod>2020-08-04</lastmod>
-  </url>  <url>
-    <loc>https://theliuqi.top/2020/04/27/git/</loc>
-    <lastmod>2020-07-16</lastmod>
   </url>  <url>
     <loc>https://theliuqi.top/2020/05/06/document-style-guide/</loc>
     <lastmod>2020-07-08</lastmod>
@@ -31,7 +25,7 @@
     <loc>https://theliuqi.top/2019/05/02/linux-commands/</loc>
     <lastmod>2020-06-22</lastmod>
   </url>  <url>
-    <loc>https://theliuqi.top/2020/04/21/list1/container-with-most-water/</loc>
+    <loc>https://theliuqi.top/2020/04/21/default/container-with-most-water/</loc>
     <lastmod>2020-06-22</lastmod>
   </url>  <url>
     <loc>https://theliuqi.top/2020/05/05/docker-commands/</loc>
