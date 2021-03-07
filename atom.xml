@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2020-08-14T06:34:02.771Z</updated>
+  <updated>2021-03-07T06:49:13.034Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue-todo</title>
+    <link href="https://theliuqi.top/2021/03/07/21-3/vue-todo/"/>
+    <id>https://theliuqi.top/2021/03/07/21-3/vue-todo/</id>
+    <published>2021-03-07T06:41:09.000Z</published>
+    <updated>2021-03-07T06:49:13.034Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;学习技术既要看文档, 还要实战 + 记录. 只有记录成文章, 不论过了多久, 我们仍能在最短时间熟悉它,
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web前端" scheme="https://theliuqi.top/categories/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue.js" scheme="https://theliuqi.top/tags/Vue-js/"/>
+    
+  </entry>
   
   <entry>
     <title>《如何阅读一本书》——书评及内容纲要</title>
@@ -45,39 +72,11 @@
   </entry>
   
   <entry>
-    <title>设计模式</title>
-    <link href="https://theliuqi.top/2020/08/05/default/design-patterns/"/>
-    <id>https://theliuqi.top/2020/08/05/default/design-patterns/</id>
-    <published>2020-08-05T02:08:21.000Z</published>
-    <updated>2020-10-12T02:26:10.197Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。使用设计模式是为了重用代码、让代码更容易被他人理解、保证代码可靠性。&lt;/p&gt;
-&lt;h2 id=&quot;设计模式的类型&quot;&gt;&lt;a href=&quot;#设计模式的类型&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="https://theliuqi.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="design patterns" scheme="https://theliuqi.top/tags/design-patterns/"/>
-    
-  </entry>
-  
-  <entry>
     <title>书评：《少有人走的路——心智成熟的旅程》</title>
     <link href="https://theliuqi.top/2020/08/04/default/road-less-traveled/"/>
     <id>https://theliuqi.top/2020/08/04/default/road-less-traveled/</id>
     <published>2020-08-04T12:08:21.000Z</published>
-    <updated>2020-08-04T15:49:59.135Z</updated>
+    <updated>2020-11-04T14:52:51.180Z</updated>
     
     <summary type="html">
     
@@ -242,7 +241,7 @@
     <link href="https://theliuqi.top/2020/04/21/default/container-with-most-water/"/>
     <id>https://theliuqi.top/2020/04/21/default/container-with-most-water/</id>
     <published>2020-04-21T01:47:09.000Z</published>
-    <updated>2020-06-22T14:47:25.771Z</updated>
+    <updated>2021-01-21T11:29:34.407Z</updated>
     
     <summary type="html">
     
@@ -269,7 +268,7 @@
     <link href="https://theliuqi.top/2019/05/02/linux-commands/"/>
     <id>https://theliuqi.top/2019/05/02/linux-commands/</id>
     <published>2019-05-02T02:40:09.000Z</published>
-    <updated>2020-06-22T15:25:46.380Z</updated>
+    <updated>2021-01-21T11:29:04.627Z</updated>
     
     <summary type="html">
     

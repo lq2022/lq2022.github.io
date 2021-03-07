@@ -447,6 +447,37 @@ $(function () {
                     
 
                     
+                    
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'true' === 'true',
+        autoplay: 'false' === 'true',
+        theme: '#542674',
+        loop: 'all',
+        order: 'list',
+        preload: 'none',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: JSON.parse('[{"name":"Blue","artist":"Rob Simonsen","url":"/medias/music/Rob Simonsen - Blue.mp3","cover":"/medias/music/avatars/blue.jpg"},{"name":"幻华","artist":"城之内ミサ","url":"/medias/music/城之内ミサ-幻华.mp3","cover":"/medias/music/avatars/blue.jpg"},{"name":"Spectre","artist":"Alan Walker","url":"/medias/music/Alan Walker-Spectre.mp3","cover":"/medias/music/avatars/blue.jpg"},{"name":"The Ludlows","artist":"James Horner","url":"/medias/music/James Horner-The Ludlows-《燃情岁月》电影插曲.mp3","cover":"/medias/music/avatars/blue.jpg"},{"name":"三葉のテーマ","artist":"RADWIMPS","url":"/medias/music/RADWIMPS-三葉のテーマ-《你的名字。》动画电影插曲.mp3","cover":"/medias/music/avatars/blue.jpg"},{"name":"Perfect Day","artist":"The Deysion","url":"/medias/music/The Deysion-Perfect Day (feat.mp3","cover":"/medias/music/avatars/blue.jpg"}]')
+    });
+});
+</script>
+                    
 
                     
 
@@ -470,11 +501,58 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
+                    <a href="/2021/03/07/21-3/vue-todo/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/27.jpg" class="responsive-img" alt="vue-todo">
+                            
+                            <span class="card-title">vue-todo</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            基于Vuex完成todo项目
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-03-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Web前端/" class="post-category" target="_blank">
+                                    Web前端
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/Vue-js/" target="_blank">
+                            <span class="chip bg-color">Vue.js</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
                     <a href="/2020/08/05/default/how-to-read-book/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="《如何阅读一本书》——书评及内容纲要">
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="《如何阅读一本书》——书评及内容纲要">
                             
                             <span class="card-title">《如何阅读一本书》——书评及内容纲要</span>
                         </div>
@@ -517,58 +595,11 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2020/08/05/default/design-patterns/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="设计模式">
-                            
-                            <span class="card-title">设计模式</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            设计模式实践，待更新
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-08-05
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/技术/" class="post-category" target="_blank">
-                                    技术
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/design-patterns/" target="_blank">
-                            <span class="chip bg-color">design patterns</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
                     <a href="/2020/08/04/default/road-less-traveled/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="书评：《少有人走的路——心智成熟的旅程》">
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="书评：《少有人走的路——心智成熟的旅程》">
                             
                             <span class="card-title">书评：《少有人走的路——心智成熟的旅程》</span>
                         </div>
@@ -615,7 +646,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="设定个人发展目标和计划">
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="设定个人发展目标和计划">
                             
                             <span class="card-title">设定个人发展目标和计划</span>
                         </div>
@@ -662,7 +693,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="VS Code使用记录">
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="VS Code使用记录">
                             
                             <span class="card-title">VS Code使用记录</span>
                         </div>
@@ -709,7 +740,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="MySQL主从复制实战">
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="MySQL主从复制实战">
                             
                             <span class="card-title">MySQL主从复制实战</span>
                         </div>
@@ -756,7 +787,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="中文技术文档的写作规范">
+                            <img src="/medias/featureimages/27.jpg" class="responsive-img" alt="中文技术文档的写作规范">
                             
                             <span class="card-title">中文技术文档的写作规范</span>
                         </div>
@@ -803,7 +834,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="开发者必备Docker命令">
+                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="开发者必备Docker命令">
                             
                             <span class="card-title">开发者必备Docker命令</span>
                         </div>
@@ -850,7 +881,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="盛最多水的容器">
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="盛最多水的容器">
                             
                             <span class="card-title">盛最多水的容器</span>
                         </div>
@@ -859,7 +890,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Leecode刷题之盛最多水的容器,我用了C++,Python,PHP三种语言来解.
+                            无简介
                             
                         </div>
                         <div class="publish-info">
@@ -897,7 +928,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="开发者必备Linux命令">
+                            <img src="/medias/featureimages/27.jpg" class="responsive-img" alt="开发者必备Linux命令">
                             
                             <span class="card-title">开发者必备Linux命令</span>
                         </div>
@@ -906,12 +937,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            
-
-系统服务管理
-输出系统中各个服务的状态：systemctl list-units --type=service
-查看服务的运行状态：systemctl status firewalld
-关闭服务: systemctl stop fire
+                            无简介
                             
                         </div>
                         <div class="publish-info">
@@ -956,7 +982,7 @@ $(function () {
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">9.6k</span>
+            <span class="white-color">10.2k</span>
             
 
             <br>
