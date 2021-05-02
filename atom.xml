@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2021-03-10T01:35:52.930Z</updated>
+  <updated>2021-05-02T11:39:42.057Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>深度分析自我</title>
+    <link href="https://theliuqi.top/2021/05/02/life/deep-analysis-of-self/"/>
+    <id>https://theliuqi.top/2021/05/02/life/deep-analysis-of-self/</id>
+    <published>2021-05-01T23:00:09.000Z</published>
+    <updated>2021-05-02T11:39:42.057Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;曾有过多篇反思过去的文章，但都没抓住问题的关键。后来随着“脑病”复发，还手贱把那些文章删除了。&lt;/p&gt;
+&lt;p&gt;在读过很多书和文章后，我认为治疗“脑病”的关键在于发现并制定一些核心规则，遵守它们并逐渐完善规则。其实这里我领悟到的与书上说的本质是一样的，只是将它转换成自己的语言
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://theliuqi.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="默认" scheme="https://theliuqi.top/tags/%E9%BB%98%E8%AE%A4/"/>
+    
+  </entry>
+  
+  <entry>
     <title>简历</title>
-    <link href="https://theliuqi.top/2021/03/07/21-3/resume/"/>
-    <id>https://theliuqi.top/2021/03/07/21-3/resume/</id>
-    <published>2021-03-07T07:41:09.000Z</published>
-    <updated>2021-03-10T01:35:52.930Z</updated>
+    <link href="https://theliuqi.top/2021/03/22/21-3/resume/"/>
+    <id>https://theliuqi.top/2021/03/22/21-3/resume/</id>
+    <published>2021-03-22T07:41:09.000Z</published>
+    <updated>2021-05-02T11:34:27.559Z</updated>
     
     <summary type="html">
     
@@ -30,7 +58,7 @@
         
         
           &lt;h2 id=&quot;个人信息&quot;&gt;&lt;a href=&quot;#个人信息&quot; class=&quot;headerlink&quot; title=&quot;个人信息&quot;&gt;&lt;/a&gt;个人信息&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;姓名: 刘琪&lt;/li&gt;
+&lt;li&gt;刘琪&lt;/li&gt;
 &lt;li&gt;联系方式: 17621778414 或 &lt;a
         
       
@@ -297,7 +325,7 @@
     <link href="https://theliuqi.top/2019/05/02/linux-commands/"/>
     <id>https://theliuqi.top/2019/05/02/linux-commands/</id>
     <published>2019-05-02T02:40:09.000Z</published>
-    <updated>2021-01-21T11:29:04.627Z</updated>
+    <updated>2021-03-12T02:38:23.271Z</updated>
     
     <summary type="html">
     
