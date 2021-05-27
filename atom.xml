@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2021-05-02T11:42:21.128Z</updated>
+  <updated>2021-05-27T10:05:03.845Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -17,39 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>深度分析自我</title>
-    <link href="https://theliuqi.top/2021/05/02/life/deep-analysis-of-self/"/>
-    <id>https://theliuqi.top/2021/05/02/life/deep-analysis-of-self/</id>
-    <published>2021-05-01T23:00:09.000Z</published>
-    <updated>2021-05-02T11:42:21.128Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;曾有过多篇反思过去的文章，但都没抓住问题的关键。后来随着“脑病”复发，还手贱把那些文章删除了。&lt;/p&gt;
-&lt;p&gt;在读过很多书和文章后，我认为治疗“脑病”的关键在于发现并制定一些核心规则，遵守它们并逐渐完善规则。其实这里我领悟到的与书上说的本质是一样的，只是将它转换成自己的语言
-        
-      
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="https://theliuqi.top/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="默认" scheme="https://theliuqi.top/tags/%E9%BB%98%E8%AE%A4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>简历</title>
-    <link href="https://theliuqi.top/2021/03/22/21-3/resume/"/>
-    <id>https://theliuqi.top/2021/03/22/21-3/resume/</id>
+    <link href="https://theliuqi.top/2021/03/22/resume/"/>
+    <id>https://theliuqi.top/2021/03/22/resume/</id>
     <published>2021-03-22T07:41:09.000Z</published>
-    <updated>2021-05-02T11:34:27.559Z</updated>
+    <updated>2021-05-27T10:05:03.845Z</updated>
     
     <summary type="html">
     
@@ -57,9 +29,10 @@
       
         
         
-          &lt;h2 id=&quot;个人信息&quot;&gt;&lt;a href=&quot;#个人信息&quot; class=&quot;headerlink&quot; title=&quot;个人信息&quot;&gt;&lt;/a&gt;个人信息&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;刘琪&lt;/li&gt;
-&lt;li&gt;联系方式: 17621778414 或 &lt;a
+          &lt;!-- ## 刘琪-自动化测试-2年 --&gt;
+&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a href=&quot;#基本信息&quot; class=&quot;headerlink&quot; title=&quot;基本信息&quot;&gt;&lt;/a&gt;基本信息&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;姓名：刘琪&lt;/li&gt;
+&lt;li&gt;电话: 17621778414
         
       
     
@@ -75,10 +48,10 @@
   
   <entry>
     <title>vue-todo</title>
-    <link href="https://theliuqi.top/2021/03/07/21-3/vue-todo/"/>
-    <id>https://theliuqi.top/2021/03/07/21-3/vue-todo/</id>
+    <link href="https://theliuqi.top/2021/03/07/list1/vue-todo/"/>
+    <id>https://theliuqi.top/2021/03/07/list1/vue-todo/</id>
     <published>2021-03-07T06:41:09.000Z</published>
-    <updated>2021-03-07T07:47:55.993Z</updated>
+    <updated>2021-05-27T10:05:11.439Z</updated>
     
     <summary type="html">
     
@@ -102,8 +75,8 @@
   
   <entry>
     <title>《如何阅读一本书》——书评及内容纲要</title>
-    <link href="https://theliuqi.top/2020/08/05/default/how-to-read-book/"/>
-    <id>https://theliuqi.top/2020/08/05/default/how-to-read-book/</id>
+    <link href="https://theliuqi.top/2020/08/05/list1/how-to-read-book/"/>
+    <id>https://theliuqi.top/2020/08/05/list1/how-to-read-book/</id>
     <published>2020-08-05T14:08:21.000Z</published>
     <updated>2020-08-14T06:34:02.771Z</updated>
     
@@ -130,8 +103,8 @@
   
   <entry>
     <title>书评：《少有人走的路——心智成熟的旅程》</title>
-    <link href="https://theliuqi.top/2020/08/04/default/road-less-traveled/"/>
-    <id>https://theliuqi.top/2020/08/04/default/road-less-traveled/</id>
+    <link href="https://theliuqi.top/2020/08/04/list1/road-less-traveled/"/>
+    <id>https://theliuqi.top/2020/08/04/list1/road-less-traveled/</id>
     <published>2020-08-04T12:08:21.000Z</published>
     <updated>2020-11-04T14:52:51.180Z</updated>
     
@@ -157,8 +130,8 @@
   
   <entry>
     <title>设定个人发展目标和计划</title>
-    <link href="https://theliuqi.top/2020/07/22/default/personal-plan/"/>
-    <id>https://theliuqi.top/2020/07/22/default/personal-plan/</id>
+    <link href="https://theliuqi.top/2020/07/22/list1/personal-plan/"/>
+    <id>https://theliuqi.top/2020/07/22/list1/personal-plan/</id>
     <published>2020-07-22T00:08:21.000Z</published>
     <updated>2020-10-12T02:19:49.066Z</updated>
     
@@ -185,10 +158,10 @@
   
   <entry>
     <title>VS Code使用记录</title>
-    <link href="https://theliuqi.top/2020/06/26/vs-code/"/>
-    <id>https://theliuqi.top/2020/06/26/vs-code/</id>
+    <link href="https://theliuqi.top/2020/06/26/list1/vs-code/"/>
+    <id>https://theliuqi.top/2020/06/26/list1/vs-code/</id>
     <published>2020-06-26T14:34:09.000Z</published>
-    <updated>2020-07-04T12:00:08.031Z</updated>
+    <updated>2021-05-27T10:06:07.368Z</updated>
     
     <summary type="html">
     
@@ -213,10 +186,10 @@
   
   <entry>
     <title>MySQL主从复制实战</title>
-    <link href="https://theliuqi.top/2020/05/27/mysql-master-slave/"/>
-    <id>https://theliuqi.top/2020/05/27/mysql-master-slave/</id>
+    <link href="https://theliuqi.top/2020/05/27/list1/mysql-master-slave/"/>
+    <id>https://theliuqi.top/2020/05/27/list1/mysql-master-slave/</id>
     <published>2020-05-27T03:46:09.000Z</published>
-    <updated>2020-08-25T07:33:29.446Z</updated>
+    <updated>2021-05-27T10:05:57.534Z</updated>
     
     <summary type="html">
     
@@ -240,10 +213,10 @@
   
   <entry>
     <title>中文技术文档的写作规范</title>
-    <link href="https://theliuqi.top/2020/05/06/document-style-guide/"/>
-    <id>https://theliuqi.top/2020/05/06/document-style-guide/</id>
+    <link href="https://theliuqi.top/2020/05/06/list1/document-style-guide/"/>
+    <id>https://theliuqi.top/2020/05/06/list1/document-style-guide/</id>
     <published>2020-05-06T03:12:09.000Z</published>
-    <updated>2020-07-08T05:58:37.117Z</updated>
+    <updated>2021-05-27T10:05:54.817Z</updated>
     
     <summary type="html">
     
@@ -268,10 +241,10 @@
   
   <entry>
     <title>开发者必备Docker命令</title>
-    <link href="https://theliuqi.top/2020/05/05/docker-commands/"/>
-    <id>https://theliuqi.top/2020/05/05/docker-commands/</id>
+    <link href="https://theliuqi.top/2020/05/05/list1/docker-commands/"/>
+    <id>https://theliuqi.top/2020/05/05/list1/docker-commands/</id>
     <published>2020-05-05T03:12:09.000Z</published>
-    <updated>2020-05-05T03:30:14.616Z</updated>
+    <updated>2021-05-27T10:05:52.900Z</updated>
     
     <summary type="html">
     
@@ -295,8 +268,8 @@
   
   <entry>
     <title>盛最多水的容器</title>
-    <link href="https://theliuqi.top/2020/04/21/default/container-with-most-water/"/>
-    <id>https://theliuqi.top/2020/04/21/default/container-with-most-water/</id>
+    <link href="https://theliuqi.top/2020/04/21/list1/container-with-most-water/"/>
+    <id>https://theliuqi.top/2020/04/21/list1/container-with-most-water/</id>
     <published>2020-04-21T01:47:09.000Z</published>
     <updated>2021-01-21T11:29:34.407Z</updated>
     
@@ -322,10 +295,10 @@
   
   <entry>
     <title>开发者必备Linux命令</title>
-    <link href="https://theliuqi.top/2019/05/02/linux-commands/"/>
-    <id>https://theliuqi.top/2019/05/02/linux-commands/</id>
+    <link href="https://theliuqi.top/2019/05/02/list1/linux-commands/"/>
+    <id>https://theliuqi.top/2019/05/02/list1/linux-commands/</id>
     <published>2019-05-02T02:40:09.000Z</published>
-    <updated>2021-03-12T02:38:23.271Z</updated>
+    <updated>2021-05-27T10:05:56.352Z</updated>
     
     <summary type="html">
     
