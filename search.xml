@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>简历</title>
-      <link href="/2021/03/22/resume/"/>
-      <url>/2021/03/22/resume/</url>
-      
-        <content type="html"><![CDATA[<!-- ## 刘琪-自动化测试-2年 --><h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><ul><li>姓名：刘琪</li><li>电话: 17621778414 </li><li>邮箱：<a href="mailto:914501855@qq.com">914501855@qq.com</a></li><li>经验：2年</li><li>意向：自动化测试工程师</li></ul><h3 id="技能清单"><a href="#技能清单" class="headerlink" title="技能清单"></a>技能清单</h3><ol><li>掌握软件测试理论知识，软件测试流程，能根据需求分析编写测试计划，设计测试用例，执行测试用例并提交缺陷报告，提交测试报告；</li><li>熟练使用SVN、Git、Postman、Charles、VSCode、禅道等等常用的测试相关工具</li><li>熟悉MySQL常用语句及使用Redis；</li><li>熟悉自动化测试，熟悉自动化测试工具Selenium + Webdriver，熟悉xpath、name、id等元素定位方法，熟悉关键字驱动自动化测试方法</li><li>了解接口测试，擅长后端接口开发；</li><li>熟悉CentOS操作系统，拥有一台 VPS 方便开发和测试；</li><li>熟悉PHP、JavaScript、Python编程语言，能使用Python编写自动化脚本。</li></ol><h3 id="工作-amp-项目经历"><a href="#工作-amp-项目经历" class="headerlink" title="工作&amp;项目经历"></a>工作&amp;项目经历</h3><p>广州花钱约科技有限公司 PHP开发工程师，测试工程师 2018.5 ~ 2021.3  </p><p>科乐得(武汉)股份有限公司 PHP开发工程师 2017.7 ~ 2018.4</p><h4 id="花钱约App（2018-05-2021-03）"><a href="#花钱约App（2018-05-2021-03）" class="headerlink" title="花钱约App（2018.05-2021.03）"></a>花钱约App（2018.05-2021.03）</h4><p>项目描述：花钱约App是一款后端采用PHP + MySQL，前端原生开发的自购省钱, 分享赚钱的社交电商APP. </p><p>职责描述：</p><ol><li>负责管理后台用户管理、代理管理、订单管理、运营管理、商品管理、数据采集、充值管理、参数配置、分销管理等功能的开发；</li><li>负责编写大部分接口代码、接口文档以及需求分析；</li><li>负责App端功能测试，Web端后台测试，使用禅道来管理bug。</li><li>负责开发OpenTreasure(在东南亚地区可以领优惠券)项目。</li></ol><h4 id="TOMTOP（2020-06-2020-09）"><a href="#TOMTOP（2020-06-2020-09）" class="headerlink" title="TOMTOP（2020.06-2020.09）"></a>TOMTOP（2020.06-2020.09）</h4><p>项目描述：TOMTOP是一款采用PHP + MySQL，基于前后端分离，仿TOMTOP商城开发的跨境商城项目。</p><p>职责描述：</p><ol><li>根据需求文档，负责后台轮播图管理模块开发；</li><li>负责购物车 + 国际支付 + 订单功能接口开发及数据库表设计；</li><li>与前端一起调试接口，协助团队进行联调测试。</li></ol><p>成果：历时3个月，项目成功交付。</p><h4 id="人人有空"><a href="#人人有空" class="headerlink" title="人人有空"></a>人人有空</h4><p>项目描述：人人有空是一个发布/竞标工程任务的平台，它有Web端和App端。</p><p>职责描述：</p><ol><li>接手同事代码，根据客户提供的需求文档进行项目的二次开发；</li><li>对照需求文档进行Web端和App端功能测试。</li></ol><p>成果：如期完成了客户的要求。</p><h4 id="魅族商城"><a href="#魅族商城" class="headerlink" title="魅族商城"></a>魅族商城</h4><p>项目描述：魅族商城是一款基于 ThinkPHP3.2 + H-admin 技术参照魅族官方商城开发的商城项目demo. 项目地址：<a href="http://mz.theliuqi.top">http://mz.theliuqi.top</a></p><p>职责描述：</p><ol><li>负责商城首页展示、注册登录、个人中心、商品详情、购物车、订单、</li><li>负责后台会员管理、商品管理、权限管理、轮播图管理等模块，基本实现了一个完整的购物商城。</li></ol><h3 id="自我评价"><a href="#自我评价" class="headerlink" title="自我评价"></a>自我评价</h3><ol><li>工作耐心，细致，承受能力强；</li><li>很好的团队合作意识，在工作中能与同事之间相互协助、友好交流，更高效的完成工作；</li><li>较好的表达能力与沟通能力，工作积极主动，能尽心尽责的完成本职工作，并提升自己的知识储备以应对公司发展的技术需求；</li><li>热爱测试工作，善于钻研，具备良好的学习和领悟能力。</li></ol><h3 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h3><p>感谢您花时间阅读我的简历，期待能有机会和您共事。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 默认 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 默认 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>vue-todo</title>
       <link href="/2021/03/07/list1/vue-todo/"/>
       <url>/2021/03/07/list1/vue-todo/</url>

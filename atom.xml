@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://theliuqi.top/"/>
-  <updated>2021-05-27T10:05:03.845Z</updated>
+  <updated>2021-05-27T10:05:11.439Z</updated>
   <id>https://theliuqi.top/</id>
   
   <author>
@@ -15,36 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>简历</title>
-    <link href="https://theliuqi.top/2021/03/22/resume/"/>
-    <id>https://theliuqi.top/2021/03/22/resume/</id>
-    <published>2021-03-22T07:41:09.000Z</published>
-    <updated>2021-05-27T10:05:03.845Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;!-- ## 刘琪-自动化测试-2年 --&gt;
-&lt;h3 id=&quot;基本信息&quot;&gt;&lt;a href=&quot;#基本信息&quot; class=&quot;headerlink&quot; title=&quot;基本信息&quot;&gt;&lt;/a&gt;基本信息&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;姓名：刘琪&lt;/li&gt;
-&lt;li&gt;电话: 17621778414
-        
-      
-    
-    </summary>
-    
-    
-      <category term="默认" scheme="https://theliuqi.top/categories/%E9%BB%98%E8%AE%A4/"/>
-    
-    
-      <category term="默认" scheme="https://theliuqi.top/tags/%E9%BB%98%E8%AE%A4/"/>
-    
-  </entry>
   
   <entry>
     <title>vue-todo</title>
