@@ -1,1 +1,2 @@
-<!-- * [关于](/top/about) -->
+- [关于](/top/about)
+- [有趣的人](/top/funny-people)
