@@ -1,2 +1,2 @@
-- [关于](/top/about)
-- [有趣的人](/top/funny-people)
+- [关于我](/top/about)
+- [友情链接](/top/funny-people)
