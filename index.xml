@@ -1,0 +1,54 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>liuqi&#39;s blog</title>
+    <link>https://lq2022.github.io/</link>
+    <description>Recent content on liuqi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    
+        <atom:link href="https://lq2022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>关于</title>
+        <link>https://lq2022.github.io/about/</link>
+        <pubDate>Sat, 22 Apr 2023 08:30:50 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/about/</guid>
+        <description>liuqi&#39;s blog https://lq2022.github.io/about/ -&lt;p&gt;待补充&lt;/p&gt;
+&lt;h2 id=&#34;联系方式&#34;&gt;联系方式&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/goliuqi&#34;&gt;Twitter&lt;/a&gt;
+Email: &lt;a href=&#34;mailto:goliuqi@gmail.com&#34;&gt;goliuqi@gmail.com&lt;/a&gt;&lt;/p&gt;
+- https://lq2022.github.io/about/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>友链</title>
+        <link>https://lq2022.github.io/friend-links/</link>
+        <pubDate>Sat, 22 Apr 2023 08:30:50 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/friend-links/</guid>
+        <description>liuqi&#39;s blog https://lq2022.github.io/friend-links/ -&lt;h2 id=&#34;main&#34;&gt;Main&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/&#34;&gt;编程随想&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.williamlong.info/&#34;&gt;月光博客&lt;/a&gt;
+主要是转载，深度不够，不过作为订阅了解时事还是可以的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt;
+&lt;h2 id=&#34;bak&#34;&gt;Bak&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.byvoid.com/zhs&#34;&gt;郭家宝-日本google&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lingxiankong.github.io/index.html&#34;&gt;孔令贤-新西兰&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://yansu.org/&#34;&gt;闫肃-美国&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://godweiyang.com/archives/&#34;&gt;韦阳-字节&lt;/a&gt;&lt;/p&gt;
+- https://lq2022.github.io/friend-links/ - </description>
+        </item>
+    
+    
+    
+    
+  </channel>
+</rss> 

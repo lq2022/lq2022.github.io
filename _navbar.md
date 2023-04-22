@@ -1,2 +1,0 @@
-- [关于我](/top/about)
-- [友情链接](/top/funny-people)
