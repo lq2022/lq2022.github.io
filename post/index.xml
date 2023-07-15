@@ -1,18 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on liuqi&#39;s blog</title>
+    <title>Posts on Liuqi&#39;s blog</title>
     <link>https://lq2022.github.io/post/</link>
-    <description>Recent content in Posts on liuqi&#39;s blog</description>
+    <description>Recent content in Posts on Liuqi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://lq2022.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>2022-2023</copyright>
+    <lastBuildDate>Sat, 15 Jul 2023 10:32:45 +0800</lastBuildDate><atom:link href="https://lq2022.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://lq2022.github.io/post/what-happen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>翻墙分享</title>
+      <link>https://lq2022.github.io/post/fanqiang/</link>
+      <pubDate>Sat, 15 Jul 2023 10:32:45 +0800</pubDate>
       
-      <guid>https://lq2022.github.io/post/what-happen/</guid>
-      <description>List1 2023-3-12开始完善博客。 公司的电脑很多功能都受限。2023-4-1 休息是生活里最重要的事。2023-4-2 List2 </description>
+      <guid>https://lq2022.github.io/post/fanqiang/</guid>
+      <description>前言 工作中发现不少人还不会翻墙, 于是想分享一些自己的经验.
+推荐使用开源客户端配合机场, 使用多年了, 一直都很稳定.
+Tips: 机场指VPN服务商提供的服务.
+买机场 我用的是STC, 一家位于香港的服务商. 按流量计费是0.8元每G, 一年有效期.
+如需选择其他机场, 可参考机场推荐或免费节点
+下载客户端&amp;amp;配置 安卓客户端: V2rayNG, Windows客户端: Clash
+配置建议查看机场提供的文档.
+结尾 建议配置路由规则以节省流量, 另一个原因是开启代理部分国内网站是无法访问的.
+好了, 如有任何疑问, 欢迎评论或通过email联系我.</description>
+    </item>
+    
+    <item>
+      <title>Obsidian使用笔记</title>
+      <link>https://lq2022.github.io/post/obsidian/</link>
+      <pubDate>Sat, 13 May 2023 08:32:45 +0800</pubDate>
+      
+      <guid>https://lq2022.github.io/post/obsidian/</guid>
+      <description>Obsidian中文文档
+Record 使用快捷键 Ctrl/Cmd-alt-左方向键回到之前的页面。 可以构建一个非常复杂的知识管理系统。 发布并可设密码。 如果按住 Ctrl/Cmd 再按下 Enter，那么将会变为在新的面板打开该笔记。 模板插件能让你在当前笔记中快速插入预设的文本段。 复制、在 Obsidian 中粘贴图片 前后有空行包围的东西就是块。
+同步收费.
+使用指南 标签 标签本质上是一个可点击的检索按钮, 应以笔记为单位. 嵌套标签：#maintag/subtag； 破折号： #two-words
+反向链接 出链-指向别的笔记; 反向链接面板由链接当前文件 和 提到当前文件名组成, 又名入链. 通过[[]]来链接库中任意一个文件。
+格式化笔记 嵌入文件：![[Obsidian#什么是 Obsidian]] 这里是行内注释：%%预览模式下你将看不到这句话%%，也可用//。 脚注
+块链接和块引用 块链接[[ ^；
+插件 搜索 比如 path:&amp;ldquo;日记/2020-07&amp;rdquo; 将返回路径中包含 日记/2020-07 的文件
+&amp;ldquo;foo bar&amp;rdquo;
+搜索时可以折叠搜索结果. /说明搜索含义
+搜特定文件夹的字符可用VSCode.</description>
+    </item>
+    
+    <item>
+      <title>探索(持续更新)</title>
+      <link>https://lq2022.github.io/post/explore/</link>
+      <pubDate>Sat, 22 Apr 2023 08:32:45 +0800</pubDate>
+      
+      <guid>https://lq2022.github.io/post/explore/</guid>
+      <description>读过 郭家宝 博客以游记居多, 现在谷歌日本工作。
+硅谷和旧金山
+Twitter的办公室环境与Facebook和Google一样，都是「大网吧」的风格，员工一个一个挨着坐在一个很大的开放式空间中。 波纳佩岛意外之旅
+待添加
+记录 孔令贤的2022
+字体font: 100 16px/1.5 Tahoma, Monaco看起来超舒服. yihong0618
+md能默认隐藏。vscode-leetcode 喜欢王小波，大概我们能成为朋友。 https://www.bmpi.dev
+个人项目技术栈：/dev/tech-stack-of-side-project/ NextJS：这框架是为了让使用 React 变得简单。#2022-10-26看了下文档，没兴趣啊。 Namecheap：便宜的域名供应商 Logseq 是一款开源的笔记工具 1Password — 密码管理工具 Wappalyzer — 浏览器插件，可以看到某个网站使用的技术栈。 看过 三坨土 横滨
+城市内有缆车, 感觉好喜欢. </description>
     </item>
     
   </channel>

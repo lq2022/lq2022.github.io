@@ -1,13 +1,136 @@
 <?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>liuqi&#39;s blog</title>
+    <title>Liuqi&#39;s blog</title>
     <link>https://lq2022.github.io/</link>
-    <description>Recent content on liuqi&#39;s blog</description>
+    <description>Recent content on Liuqi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en-us</language>
+    <copyright>2022-2023</copyright>
+    <lastBuildDate>Sat, 15 Jul 2023 10:32:45 +0800</lastBuildDate>
     
         <atom:link href="https://lq2022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>翻墙分享</title>
+        <link>https://lq2022.github.io/post/fanqiang/</link>
+        <pubDate>Sat, 15 Jul 2023 10:32:45 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/post/fanqiang/</guid>
+        <description>Liuqi&#39;s blog https://lq2022.github.io/post/fanqiang/ -&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;工作中发现不少人还不会翻墙, 于是想分享一些自己的经验.&lt;/p&gt;
+&lt;p&gt;推荐使用开源客户端配合机场, 使用多年了, 一直都很稳定.&lt;/p&gt;
+&lt;p&gt;Tips: 机场指VPN服务商提供的服务.&lt;/p&gt;
+&lt;h2 id=&#34;买机场&#34;&gt;买机场&lt;/h2&gt;
+&lt;p&gt;我用的是&lt;a href=&#34;https://mqk4azjxg8skg6gfelpb.stcserver-cloud.com/&#34;&gt;STC&lt;/a&gt;, 一家位于香港的服务商. 按流量计费是0.8元每G, 一年有效期.&lt;/p&gt;
+&lt;p&gt;如需选择其他机场, 可参考&lt;a href=&#34;https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5/%E6%8C%89%E9%87%8F%E4%BB%98%E8%B4%B9%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90&#34;&gt;机场推荐&lt;/a&gt;或&lt;a href=&#34;https://github.com/freefq/free&#34;&gt;免费节点&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;下载客户端配置&#34;&gt;下载客户端&amp;amp;配置&lt;/h2&gt;
+&lt;p&gt;安卓客户端: &lt;a href=&#34;https://mqk4azjxg8skg6gfelpb.stcserver-cloud.com/client/V2rayNG%201.1.14.apk&#34;&gt;V2rayNG&lt;/a&gt;, Windows客户端: &lt;a href=&#34;https://mqk4azjxg8skg6gfelpb.stcserver-cloud.com/client/Clash.for.Windows-0.11.7-win.zip&#34;&gt;Clash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;配置建议查看机场提供的文档.&lt;/p&gt;
+&lt;h2 id=&#34;结尾&#34;&gt;结尾&lt;/h2&gt;
+&lt;p&gt;建议配置路由规则以节省流量, 另一个原因是开启代理部分国内网站是无法访问的.&lt;/p&gt;
+&lt;p&gt;好了, 如有任何疑问, 欢迎评论或通过email联系我.&lt;/p&gt;
+- https://lq2022.github.io/post/fanqiang/ - 2022-2023</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Obsidian使用笔记</title>
+        <link>https://lq2022.github.io/post/obsidian/</link>
+        <pubDate>Sat, 13 May 2023 08:32:45 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/post/obsidian/</guid>
+        <description>Liuqi&#39;s blog https://lq2022.github.io/post/obsidian/ -&lt;p&gt;&lt;a href=&#34;https://publish.obsidian.md/help-zh&#34;&gt;Obsidian中文文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;record&#34;&gt;Record&lt;/h2&gt;
+&lt;p&gt;使用快捷键 Ctrl/Cmd-alt-左方向键回到之前的页面。
+可以构建一个非常复杂的知识管理系统。
+发布并可设密码。
+如果按住 Ctrl/Cmd 再按下 Enter，那么将会变为在新的面板打开该笔记。
+模板插件能让你在当前笔记中快速插入预设的文本段。
+复制、在 Obsidian 中粘贴图片
+前后有空行包围的东西就是块。&lt;br&gt;
+同步收费.&lt;/p&gt;
+&lt;h2 id=&#34;使用指南&#34;&gt;使用指南&lt;/h2&gt;
+&lt;p&gt;标签
+标签本质上是一个可点击的检索按钮, 应以笔记为单位.
+嵌套标签：&lt;code&gt;#maintag/subtag&lt;/code&gt;；
+破折号： &lt;code&gt;#two-words&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;反向链接
+出链-指向别的笔记;
+反向链接面板由链接当前文件 和 提到当前文件名组成, 又名入链.
+通过[[]]来链接库中任意一个文件。&lt;/p&gt;
+&lt;p&gt;格式化笔记
+嵌入文件：&lt;code&gt;![[Obsidian#什么是 Obsidian]]&lt;/code&gt;
+这里是行内注释：%%预览模式下你将看不到这句话%%，也可用//。
+脚注&lt;/p&gt;
+&lt;p&gt;块链接和块引用
+块链接&lt;code&gt;[[ ^&lt;/code&gt;；&lt;/p&gt;
+&lt;h2 id=&#34;插件&#34;&gt;插件&lt;/h2&gt;
+&lt;h3 id=&#34;搜索&#34;&gt;搜索&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;比如 path:&amp;ldquo;日记/2020-07&amp;rdquo; 将返回路径中包含 日记/2020-07 的文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;foo bar&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;搜索时可以折叠搜索结果. /说明搜索含义&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;搜特定文件夹的字符可用VSCode.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+- https://lq2022.github.io/post/obsidian/ - 2022-2023</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>探索(持续更新)</title>
+        <link>https://lq2022.github.io/post/explore/</link>
+        <pubDate>Sat, 22 Apr 2023 08:32:45 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/post/explore/</guid>
+        <description>Liuqi&#39;s blog https://lq2022.github.io/post/explore/ -&lt;h2 id=&#34;读过&#34;&gt;读过&lt;/h2&gt;
+&lt;h3 id=&#34;郭家宝httpsbyvoidcomzhs&#34;&gt;&lt;a href=&#34;https://byvoid.com/zhs&#34;&gt;郭家宝&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;博客以游记居多, 现在谷歌日本工作。&lt;/p&gt;
+&lt;p&gt;硅谷和旧金山&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Twitter的办公室环境与Facebook和Google一样，都是「大网吧」的风格，员工一个一个挨着坐在一个很大的开放式空间中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://byvoid.com/blog/micronesia-pohnpei-1&#34;&gt;波纳佩岛意外之旅&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;待添加&lt;/p&gt;
+&lt;h3 id=&#34;记录&#34;&gt;记录&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://lingxiankong.github.io/2022-12-31-summary.html&#34;&gt;孔令贤的2022&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;字体&lt;code&gt;font: 100 16px/1.5 Tahoma, Monaco&lt;/code&gt;看起来超舒服.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yihong0618/gitblog&#34;&gt;yihong0618&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;md能默认隐藏。vscode-leetcode&lt;/li&gt;
+&lt;li&gt;喜欢王小波，大概我们能成为朋友。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bmpi.dev&#34;&gt;https://www.bmpi.dev&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;个人项目技术栈：/dev/tech-stack-of-side-project/
+NextJS：这框架是为了让使用 React 变得简单。#2022-10-26看了下文档，没兴趣啊。
+Namecheap：便宜的域名供应商
+Logseq 是一款开源的笔记工具
+1Password — 密码管理工具
+Wappalyzer — 浏览器插件，可以看到某个网站使用的技术栈。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;看过&#34;&gt;看过&lt;/h2&gt;
+&lt;h3 id=&#34;三坨土&#34;&gt;三坨土&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Bh41157As&#34;&gt;横滨&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;城市内有缆车, 感觉好喜欢.&lt;/li&gt;
+&lt;/ul&gt;
+- https://lq2022.github.io/post/explore/ - 2022-2023</description>
+        </item>
     
     
     
@@ -17,11 +140,14 @@
         <pubDate>Sat, 22 Apr 2023 08:30:50 +0800</pubDate>
         
         <guid>https://lq2022.github.io/about/</guid>
-        <description>liuqi&#39;s blog https://lq2022.github.io/about/ -&lt;p&gt;待补充&lt;/p&gt;
+        <description>Liuqi&#39;s blog https://lq2022.github.io/about/ -&lt;p&gt;待补充&lt;/p&gt;
 &lt;h2 id=&#34;联系方式&#34;&gt;联系方式&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/goliuqi&#34;&gt;Twitter&lt;/a&gt;
-Email: &lt;a href=&#34;mailto:goliuqi@gmail.com&#34;&gt;goliuqi@gmail.com&lt;/a&gt;&lt;/p&gt;
-- https://lq2022.github.io/about/ - </description>
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/goliuqi&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:goliuqi@gmail.com&#34;&gt;goliuqi@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lq2022.github.io/index.xml&#34;&gt;RSS Feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+- https://lq2022.github.io/about/ - 2022-2023</description>
         </item>
     
     
@@ -32,22 +158,16 @@ Email: &lt;a href=&#34;mailto:goliuqi@gmail.com&#34;&gt;goliuqi@gmail.com&lt;/a&
         <pubDate>Sat, 22 Apr 2023 08:30:50 +0800</pubDate>
         
         <guid>https://lq2022.github.io/friend-links/</guid>
-        <description>liuqi&#39;s blog https://lq2022.github.io/friend-links/ -&lt;h2 id=&#34;main&#34;&gt;Main&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/&#34;&gt;编程随想&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.williamlong.info/&#34;&gt;月光博客&lt;/a&gt;
-主要是转载，深度不够，不过作为订阅了解时事还是可以的。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt;
+        <description>Liuqi&#39;s blog https://lq2022.github.io/friend-links/ -&lt;h2 id=&#34;main&#34;&gt;Main&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://program-think.blogspot.com/&#34;&gt;编程随想&lt;/a&gt;: 爱国奇人, 知识量大的惊人.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.williamlong.info/&#34;&gt;月光博客&lt;/a&gt;: 主要是转载，深度不够，不过作为订阅了解时事还是可以的。&lt;/p&gt;
+&lt;h2 id=&#34;record&#34;&gt;Record&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.byvoid.com/zhs&#34;&gt;郭家宝&lt;/a&gt;: 通过信息赛考入清华, 现在Google日本工作.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lingxiankong.github.io/index.html&#34;&gt;孔令贤&lt;/a&gt;: 以前在西安华为上班, 后为逃离内卷的环境, 现在新西兰工作.&lt;/p&gt;
 &lt;h2 id=&#34;bak&#34;&gt;Bak&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.byvoid.com/zhs&#34;&gt;郭家宝-日本google&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://lingxiankong.github.io/index.html&#34;&gt;孔令贤-新西兰&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://yansu.org/&#34;&gt;闫肃-美国&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://godweiyang.com/archives/&#34;&gt;韦阳-字节&lt;/a&gt;&lt;/p&gt;
-- https://lq2022.github.io/friend-links/ - </description>
+&lt;p&gt;&lt;a href=&#34;https://godweiyang.com/archives/&#34;&gt;韦阳-字节&lt;/a&gt;: 字节NLP算法工程师, 年更, 博客有bug.&lt;/p&gt;
+- https://lq2022.github.io/friend-links/ - 2022-2023</description>
         </item>
-    
-    
     
     
   </channel>
