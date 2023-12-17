@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lq2022.github.io/categories/</loc>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lq2022.github.io/tags/how/</loc>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
+  </url><url>
     <loc>https://lq2022.github.io/</loc>
-    <lastmod>2023-07-15T10:32:45+08:00</lastmod>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
   </url><url>
     <loc>https://lq2022.github.io/post/</loc>
-    <lastmod>2023-07-15T10:32:45+08:00</lastmod>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lq2022.github.io/tags/</loc>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lq2022.github.io/post/how-to-have-a-good-rest/</loc>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lq2022.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2023-10-29T09:56:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lq2022.github.io/post/project/</loc>
+    <lastmod>2023-09-03T08:32:45+08:00</lastmod>
   </url><url>
     <loc>https://lq2022.github.io/post/fanqiang/</loc>
     <lastmod>2023-07-15T10:32:45+08:00</lastmod>
@@ -22,9 +40,5 @@
   </url><url>
     <loc>https://lq2022.github.io/friend-links/</loc>
     <lastmod>2023-04-22T08:30:50+08:00</lastmod>
-  </url><url>
-    <loc>https://lq2022.github.io/categories/</loc>
-  </url><url>
-    <loc>https://lq2022.github.io/tags/</loc>
   </url>
 </urlset>

@@ -7,9 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2022-2023</copyright>
-    <lastBuildDate>Sat, 15 Jul 2023 10:32:45 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2023 09:56:28 +0800</lastBuildDate>
     
         <atom:link href="https://lq2022.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>如何休息好1</title>
+        <link>https://lq2022.github.io/post/how-to-have-a-good-rest/</link>
+        <pubDate>Sun, 29 Oct 2023 09:56:28 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/post/how-to-have-a-good-rest/</guid>
+        <description>Liuqi&#39;s blog https://lq2022.github.io/post/how-to-have-a-good-rest/ -&lt;p&gt;一直以来, 早起头痛和午休后还是没精神等问题经常困扰着我, 严重降低我的生活质量和自控力. 经过在网络查询一番并实践后, 终于有了一些心得和进步, 特在此分享.&lt;/p&gt;
+&lt;h2 id=&#34;夜间睡眠&#34;&gt;夜间睡眠&lt;/h2&gt;
+&lt;p&gt;以前的我是这样睡的: 23点30分上床睡觉, 常常几十分钟过去了, 还是睡不着, 不得已坐起来冥想/看书20分钟, 再睡, 结果醒来有时头痛欲裂.&lt;/p&gt;
+&lt;p&gt;后来看&amp;lt;睡眠革命&amp;gt;一书了解到人的睡眠是以90分钟一个周期的, 在周期结束时醒来会比较有精神. 不过没实践它.&lt;/p&gt;
+&lt;p&gt;前几天我通过实践彻底解决了晚上睡眠的问题, 非常开心, 步骤如下:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先确定几点起, 我设置了7点.&lt;/li&gt;
+&lt;li&gt;23点30分先睡一会, 不困了就起来看书, 到1点再睡.&lt;/li&gt;
+&lt;li&gt;7点闹钟一响, 就坐起来冥想20分.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;稍微解释下: 第2条是因为我适合睡7h, 又要符合周期规律. 第3条因为冥想也是在休息, 就不会那么抗拒.&lt;/p&gt;
+&lt;h2 id=&#34;午休&#34;&gt;午休&lt;/h2&gt;
+&lt;p&gt;谈完了睡觉, 再来说说午休.&lt;/p&gt;
+&lt;p&gt;我的经验是饭后戴上「U型枕」靠着坐在椅子上, 计时40分钟.&lt;/p&gt;
+&lt;p&gt;躺着睡40分钟也是一个不错的选择, 建议在饭后20分进行.&lt;/p&gt;
+&lt;p&gt;千万别趴着睡, 醒来后大脑会不舒服.&lt;/p&gt;
+&lt;h2 id=&#34;定时休息&#34;&gt;定时休息&lt;/h2&gt;
+&lt;p&gt;定时休息能让我工作更高效, 我是这样做的: 开始工作前设置闹钟1h, 结束后靠着休息10分钟再继续工作. 大家可以参考一下.&lt;/p&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzI3MjA5MTgzMQ==&amp;amp;mid=2650874576&amp;amp;idx=1&amp;amp;sn=eaeeb461b8eb241521cac191b2122b33&amp;amp;chksm=f0c25d08c7b5d41e583c48052b8abacc219c0fa06713588d9d593c15678e19df0b5097676f54&amp;amp;scene=21#wechat_redirect&#34;&gt;如何每天只睡6小时，依然精力充沛&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://weread.qq.com/review-detail?reviewid=59196578_7sEI7m1r2&amp;amp;type=4&#34;&gt;睡眠革命书评&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;好了, 以上就是我想分享的内容了.&lt;/p&gt;
+- https://lq2022.github.io/post/how-to-have-a-good-rest/ - 2022-2023</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>项目(待更新)</title>
+        <link>https://lq2022.github.io/post/project/</link>
+        <pubDate>Sun, 03 Sep 2023 08:32:45 +0800</pubDate>
+        
+        <guid>https://lq2022.github.io/post/project/</guid>
+        <description>Liuqi&#39;s blog https://lq2022.github.io/post/project/ -&lt;p&gt;&amp;hellip;&lt;/p&gt;
+- https://lq2022.github.io/post/project/ - 2022-2023</description>
+        </item>
     
     
     
@@ -140,11 +187,13 @@ Wappalyzer — 浏览器插件，可以看到某个网站使用的技术栈。&l
         <pubDate>Sat, 22 Apr 2023 08:30:50 +0800</pubDate>
         
         <guid>https://lq2022.github.io/about/</guid>
-        <description>Liuqi&#39;s blog https://lq2022.github.io/about/ -&lt;p&gt;待补充&lt;/p&gt;
+        <description>Liuqi&#39;s blog https://lq2022.github.io/about/ -&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;曾做过PHP程序员, 测试工程师(兼任Java开发), 现失业迷茫中. 正在学习投资, 探索人生更多可能中. //2023-12-17&lt;/p&gt;
 &lt;h2 id=&#34;联系方式&#34;&gt;联系方式&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/goliuqi&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Email: &lt;a href=&#34;mailto:goliuqi@gmail.com&#34;&gt;goliuqi@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;code&gt;goliuqi@gmail.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;QQ: 914501855&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/goliuqi&#34;&gt;Twitter&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lq2022.github.io/index.xml&#34;&gt;RSS Feed&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 - https://lq2022.github.io/about/ - 2022-2023</description>
@@ -158,14 +207,29 @@ Wappalyzer — 浏览器插件，可以看到某个网站使用的技术栈。&l
         <pubDate>Sat, 22 Apr 2023 08:30:50 +0800</pubDate>
         
         <guid>https://lq2022.github.io/friend-links/</guid>
-        <description>Liuqi&#39;s blog https://lq2022.github.io/friend-links/ -&lt;h2 id=&#34;main&#34;&gt;Main&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://program-think.blogspot.com/&#34;&gt;编程随想&lt;/a&gt;: 爱国奇人, 知识量大的惊人.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.williamlong.info/&#34;&gt;月光博客&lt;/a&gt;: 主要是转载，深度不够，不过作为订阅了解时事还是可以的。&lt;/p&gt;
-&lt;h2 id=&#34;record&#34;&gt;Record&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.byvoid.com/zhs&#34;&gt;郭家宝&lt;/a&gt;: 通过信息赛考入清华, 现在Google日本工作.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://lingxiankong.github.io/index.html&#34;&gt;孔令贤&lt;/a&gt;: 以前在西安华为上班, 后为逃离内卷的环境, 现在新西兰工作.&lt;/p&gt;
+        <description>Liuqi&#39;s blog https://lq2022.github.io/friend-links/ -&lt;h2 id=&#34;important&#34;&gt;Important&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://program-think.blogspot.com/&#34;&gt;编程随想&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;爱国奇人, 知识量大的惊人.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;collect&#34;&gt;Collect&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.byvoid.com/zhs&#34;&gt;郭家宝&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过信息赛考入清华, 现在Google日本工作.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://lingxiankong.github.io/index.html&#34;&gt;孔令贤&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以前在西安华为上班, 后为逃离内卷的环境, 现在新西兰工作.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.williamlong.info/&#34;&gt;月光博客&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主要是转载，深度不够，不过作为订阅了解时事还是可以的。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;bak&#34;&gt;Bak&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://godweiyang.com/archives/&#34;&gt;韦阳-字节&lt;/a&gt;: 字节NLP算法工程师, 年更, 博客有bug.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://godweiyang.com/archives/&#34;&gt;韦阳-字节&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;字节NLP算法工程师, 年更, 博客有bug.&lt;/li&gt;
+&lt;/ul&gt;
 - https://lq2022.github.io/friend-links/ - 2022-2023</description>
         </item>
     
