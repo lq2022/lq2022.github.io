@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Obsidian使用笔记</title>
+<title>随笔</title>
 
 
 
@@ -37,8 +37,6 @@
 
 
 
-      <script src="/js/toc.js"></script>
-    
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="/scss/dark-mode.min.cb53f1bee2b8900cb4f082afbf00175d6618f281cf9a2fe8619e3b52d20b5721.css" integrity="sha256-y1PxvuK4kAy08IKvvwAXXWYY8oHPmi/oYZ47UtILVyE=" media="screen">
@@ -77,9 +75,11 @@
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/categories">
+                
+                <a class="a-block drawer-menu-item active" href="/categories">
                     分类
                 </a>
                 
@@ -97,11 +97,9 @@
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/post">
+                <a class="a-block drawer-menu-item false" href="/post">
                     归档
                 </a>
                 
@@ -126,108 +124,6 @@
                 </a>
                 
             
-            
-            <div class="toc">
-
-
-	<div class="toc-content">
-	
-		
-		
-		
-		<center>- CATALOG -</center>
-		
-		
-		<ul>
-			
-				
-				
-					
-						
-						
-						
-						
-							
-								
-									<ul>
-								
-							
-						
-						
-							<li>
-								<a href="#record" class="nav-record">
-									Record
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97" class="nav-使用指南">
-									使用指南
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#%e6%8f%92%e4%bb%b6" class="nav-插件">
-									插件
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-							
-								
-									<ul>
-								
-							
-						
-						
-							<li>
-								<a href="#%e6%90%9c%e7%b4%a2" class="nav-搜索">
-									搜索
-								</a>
-							</li>
-						
-						
-					
-				
-			
-		</ul>
-	</div>
-
-</div>
             
         </div>
     </div>
@@ -268,127 +164,35 @@
                 <div id="streamContainer" class="stream-container">
 
     <div class="post-list-container post-list-container-shadow">
-        <div class="post">
-            
-            
-            
-
-            <div class="post-head-wrapper-text-only"
-                
-            >
-                <div class="post-title">
-                    Obsidian使用笔记
-                    
-                    <div class="post-meta">
-                        
-                        <time itemprop="datePublished">
-                            2023-05-13 15:27
-                        </time>
-                        
-
-                        
-                            <i class="material-icons" style="">folder</i>
-                                <a href="/categories/">[随笔]</a>
-                                &nbsp;
-                        
-
-                        
-                            <i class="material-icons" style="">label</i>
-                            
-                                <a href="/tags/%E6%8A%80%E6%9C%AF">技术</a>
-                                &nbsp;
-                            
-                        
-                        
+        <div class="post-item-wrapper post-item-wrapper-no-hover">
+            <div class="post-item post-item-no-gaps">
+                <div class="post-item-info-wrapper">
+                    <div class="post-item-title  post-item-title-small">
+                        <a href="/categories/">Categories</a> / 随笔
                     </div>
                 </div>
             </div>
-            
-            <div class="post-body-wrapper">
-                
-                <div class="post-body" v-pre>
-                
-                    <p><a href="https://publish.obsidian.md/help-zh">Obsidian中文文档</a></p>
-<h2 id="record">Record</h2>
-<p>使用快捷键 Ctrl/Cmd-alt-左方向键回到之前的页面。
-可以构建一个非常复杂的知识管理系统。
-发布并可设密码。
-如果按住 Ctrl/Cmd 再按下 Enter，那么将会变为在新的面板打开该笔记。
-模板插件能让你在当前笔记中快速插入预设的文本段。
-复制、在 Obsidian 中粘贴图片
-前后有空行包围的东西就是块。<br>
-同步收费.</p>
-<h2 id="使用指南">使用指南</h2>
-<p>标签
-标签本质上是一个可点击的检索按钮, 应以笔记为单位.
-嵌套标签：<code>#maintag/subtag</code>；
-破折号： <code>#two-words</code></p>
-<p>反向链接
-出链-指向别的笔记;
-反向链接面板由链接当前文件 和 提到当前文件名组成, 又名入链.
-通过[[]]来链接库中任意一个文件。</p>
-<p>格式化笔记
-嵌入文件：<code>![[Obsidian#什么是 Obsidian]]</code>
-这里是行内注释：%%预览模式下你将看不到这句话%%，也可用//。
-脚注</p>
-<p>块链接和块引用
-块链接<code>[[ ^</code>；</p>
-<h2 id="插件">插件</h2>
-<h3 id="搜索">搜索</h3>
-<ul>
-<li>
-<p>比如 path:&ldquo;日记/2020-07&rdquo; 将返回路径中包含 日记/2020-07 的文件</p>
-</li>
-<li>
-<p>&ldquo;foo bar&rdquo;</p>
-</li>
-<li>
-<p>搜索时可以折叠搜索结果. /说明搜索含义</p>
-</li>
-<li>
-<p>搜特定文件夹的字符可用VSCode.</p>
-</li>
-</ul>
+        </div><a href="/post/obsidian/" class="a-block">
+            <div class="post-item-wrapper">
+                <div class="post-item post-item-no-gaps">
+                    <div class="post-item-info-wrapper">
+                        <div class="post-item-title">
+                            Obsidian使用笔记
+                        </div>
+                        <div class="post-item-meta">
+    2023-05-13
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
 
-                    
-                    <HR width="100%" id="EOF">
-		    <p style="color:#777;">Last modified on 2023-05-13</p>
-                    
+                    </div>
                 </div>
             </div>
-            
-            
-            <nav class="post-pagination">
-
-                
-                <a class="newer-posts" href="/post/fanqiang/">
-			Next<br>翻墙分享
-                </a>
-                
-                
-                
-                <a class="older-posts" href="/post/collect/">
-			Previous<br>我的收藏(持续更新)
-                </a>
-                
-            </nav>
-            <div class="post-comment-wrapper">
-                
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-        </div>
-    </div>
+        </a></div>
 
 
                     </div>
@@ -408,9 +212,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/categories">
+            
+            <a class="a-block nav-link-item active" href="/categories">
                 分类
             </a>
             
@@ -428,11 +234,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/post">
+            <a class="a-block nav-link-item false" href="/post">
                 归档
             </a>
             
@@ -480,108 +284,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         
 
         
-        <div class="toc">
-
-
-	<div class="toc-content">
-	
-		
-		
-		
-		<center>- CATALOG -</center>
-		
-		
-		<ul>
-			
-				
-				
-					
-						
-						
-						
-						
-							
-								
-									<ul>
-								
-							
-						
-						
-							<li>
-								<a href="#record" class="nav-record">
-									Record
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97" class="nav-使用指南">
-									使用指南
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#%e6%8f%92%e4%bb%b6" class="nav-插件">
-									插件
-								</a>
-							</li>
-						
-						
-					
-				
-			
-				
-				
-					
-						
-						
-						
-						
-							
-								
-									<ul>
-								
-							
-						
-						
-							<li>
-								<a href="#%e6%90%9c%e7%b4%a2" class="nav-搜索">
-									搜索
-								</a>
-							</li>
-						
-						
-					
-				
-			
-		</ul>
-	</div>
-
-</div>
-        
     </div>
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
@@ -598,8 +300,13 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
+        
+        
     </div>
-</div><div id="single-column-footer">
+</div>
+
+
+<div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

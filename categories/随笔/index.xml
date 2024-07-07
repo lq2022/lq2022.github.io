@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on Liuqi&#39;s blog</title>
+    <link>https://lq2022.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on Liuqi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>2022-2024</copyright>
+    <lastBuildDate>Sat, 13 May 2023 15:27:31 +0000</lastBuildDate><atom:link href="https://lq2022.github.io/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian使用笔记</title>
+      <link>https://lq2022.github.io/post/obsidian/</link>
+      <pubDate>Sat, 13 May 2023 15:27:31 +0000</pubDate>
+      
+      <guid>https://lq2022.github.io/post/obsidian/</guid>
+      <description>Obsidian中文文档
+Record 使用快捷键 Ctrl/Cmd-alt-左方向键回到之前的页面。 可以构建一个非常复杂的知识管理系统。 发布并可设密码。 如果按住 Ctrl/Cmd 再按下 Enter，那么将会变为在新的面板打开该笔记。 模板插件能让你在当前笔记中快速插入预设的文本段。 复制、在 Obsidian 中粘贴图片 前后有空行包围的东西就是块。
+同步收费.
+使用指南 标签 标签本质上是一个可点击的检索按钮, 应以笔记为单位. 嵌套标签：#maintag/subtag； 破折号： #two-words
+反向链接 出链-指向别的笔记; 反向链接面板由链接当前文件 和 提到当前文件名组成, 又名入链. 通过[[]]来链接库中任意一个文件。
+格式化笔记 嵌入文件：![[Obsidian#什么是 Obsidian]] 这里是行内注释：%%预览模式下你将看不到这句话%%，也可用//。 脚注
+块链接和块引用 块链接[[ ^；
+插件 搜索 比如 path:&amp;ldquo;日记/2020-07&amp;rdquo; 将返回路径中包含 日记/2020-07 的文件
+&amp;ldquo;foo bar&amp;rdquo;
+搜索时可以折叠搜索结果. /说明搜索含义
+搜特定文件夹的字符可用VSCode.</description>
+    </item>
+    
+  </channel>
+</rss>
