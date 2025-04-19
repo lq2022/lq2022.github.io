@@ -6,8 +6,18 @@
     <description>Recent content in Posts on Liuqi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>2022-2024</copyright>
-    <lastBuildDate>Wed, 13 Nov 2024 07:05:18 +0800</lastBuildDate><atom:link href="https://lq2022.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>2022-2025</copyright>
+    <lastBuildDate>Wed, 18 Dec 2024 15:29:42 +0800</lastBuildDate><atom:link href="https://lq2022.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我喜爱的文章</title>
+      <link>https://lq2022.github.io/post/favorite-article/</link>
+      <pubDate>Wed, 18 Dec 2024 15:29:42 +0800</pubDate>
+      
+      <guid>https://lq2022.github.io/post/favorite-article/</guid>
+      <description>List 设定个人发展目标和计划 此文很重要, 我曾看过几遍, 但直到2024-12-18前后才做了正确的实践.
+我的做法是: 依次列出短中长期目标, 然后把短期目标写到任务-重要节点, 并在每日模板里触发它.</description>
+    </item>
+    
     <item>
       <title>高冷冷的文章导读笔记</title>
       <link>https://lq2022.github.io/post/gaolengleng/</link>
