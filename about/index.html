@@ -54,6 +54,23 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script><script>
+  var gitalk = new Gitalk({
+  clientID: '05816fd4e74a39272f2a',
+  clientSecret: '22b6139e1591e4b4f9d1b8a27b349f3f7b2ac395',
+  repo: 'lq2022.github.io',
+  owner: 'lq2022',
+  admin: ['lq2022'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
+
 
 
 
@@ -182,6 +199,24 @@
 					
 				
 			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e9%a1%b9%e7%9b%ae" class="nav-项目">
+									项目
+								</a>
+							</li>
+						
+						
+					
+				
+			
 		</ul>
 	</div>
 
@@ -257,14 +292,16 @@
                 <div class="post-body" v-pre>
                 
                     <h2 id="简介">简介</h2>
-<p>暂没什么值得介绍的.  //2025-2-24</p>
+<ul>
+<li>待博客内容丰富, 且我取得一些成就之后再来丰富此页. /2025-9-17</li>
+</ul>
 <h2 id="联系方式">联系方式</h2>
 <ul>
 <li>Email: <code>goliuqi@gmail.com</code></li>
-<li>QQ: 914501855</li>
-<li><a href="https://twitter.com/goliuqi">Twitter</a>,</li>
-<li><a href="/index.xml">RSS Feed</a></li>
+<li>微信号: <code>914501855</code></li>
+<li>X: <input checked="" disabled="" type="checkbox"> (<a href="https://x.com/goliuqi">https://x.com/goliuqi</a>)</li>
 </ul>
+<h2 id="项目">项目</h2>
 
                     
                     <HR width="100%" id="EOF">
@@ -277,8 +314,8 @@
             <nav class="post-pagination">
 
                 
-                <a class="newer-posts" href="/post/collect/">
-			Next<br>我的收藏(持续更新)
+                <a class="newer-posts" href="/post/obsidian/">
+			Next<br>Obsidian使用笔记
                 </a>
                 
                 
@@ -291,6 +328,8 @@
             <div class="post-comment-wrapper">
                 
 
+
+<div id="gitalk-container"></div>
 
 
 
@@ -444,6 +483,24 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 							<li>
 								<a href="#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="nav-联系方式">
 									联系方式
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e9%a1%b9%e7%9b%ae" class="nav-项目">
+									项目
 								</a>
 							</li>
 						
